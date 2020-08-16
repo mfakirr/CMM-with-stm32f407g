@@ -1,0 +1,2714 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+wBuffer             0x40              ./src/main.o
+AN0                 0x2               ./src/main.o
+AN4                 0x2               ./src/main.o
+vA6                 0x4               ./src/main.o
+A3                  0x800             ./src/main.o
+vA2                 0x4               ./src/main.o
+AN3                 0x2               ./src/main.o
+A5                  0x800             ./src/main.o
+AN5                 0x2               ./src/main.o
+W_BUFFER            0x4               ./src/main.o
+ADCTripleConvertedValue
+                    0x12              ./src/main.o
+FreqBase            0x4               ./src/main.o
+usbd_cdc_OtherCfgDesc
+                    0x43              ./src_CDC/usbd_cdc_core.o
+vA1                 0x4               ./src/main.o
+USB_Rx_Buffer       0x40              ./src_CDC/usbd_cdc_core.o
+A4                  0x800             ./src/main.o
+A2                  0x800             ./src/main.o
+AN2                 0x2               ./src/main.o
+PrescalerValue      0x2               ./src/main.o
+CmdBuff             0x8               ./src_CDC/usbd_cdc_core.o
+FreqTimer           0x4               ./src/main.o
+AN7                 0x2               ./src/main.o
+USB_OTG_dev         0x5f0             ./src/main.o
+R_BUFFER            0x4               ./src/main.o
+APP_Rx_Buffer       0x800             ./src_CDC/usbd_cdc_core.o
+vA3                 0x4               ./src/main.o
+AN6                 0x2               ./src/main.o
+AN8                 0x2               ./src/main.o
+USBD_StrDesc        0x40              ./sec_USBD/usbd_req.o
+rBuffer             0x40              ./src/main.o
+vA4                 0x4               ./src/main.o
+A1                  0x800             ./src/main.o
+AN1                 0x2               ./src/main.o
+vA5                 0x4               ./src/main.o
+A6                  0x800             ./src/main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src_standart/misc.o
+ .data          0x00000000        0x0 ./src_standart/misc.o
+ .bss           0x00000000        0x0 ./src_standart/misc.o
+ .text.NVIC_SetVectorTable
+                0x00000000       0x14 ./src_standart/misc.o
+ .text.NVIC_SystemLPConfig
+                0x00000000       0x18 ./src_standart/misc.o
+ .text.SysTick_CLKSourceConfig
+                0x00000000       0x18 ./src_standart/misc.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_adc.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_adc.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_StructInit
+                0x00000000       0x14 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_CommonStructInit
+                0x00000000        0xc ./src_standart/stm32f4xx_adc.o
+ .text.ADC_AnalogWatchdogCmd
+                0x00000000       0x10 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_AnalogWatchdogThresholdsConfig
+                0x00000000        0x6 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_AnalogWatchdogSingleChannelConfig
+                0x00000000        0xc ./src_standart/stm32f4xx_adc.o
+ .text.ADC_TempSensorVrefintCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_VBATCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_GetSoftwareStartConvStatus
+                0x00000000        0x8 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_EOCOnEachRegularChannelCmd
+                0x00000000       0x12 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_ContinuousModeCmd
+                0x00000000       0x12 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_DiscModeChannelCountConfig
+                0x00000000       0x10 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_DiscModeCmd
+                0x00000000       0x12 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_GetConversionValue
+                0x00000000        0x6 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_GetMultiModeConversionValue
+                0x00000000        0xc ./src_standart/stm32f4xx_adc.o
+ .text.ADC_DMARequestAfterLastTransferCmd
+                0x00000000       0x12 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_InjectedChannelConfig
+                0x00000000       0x5c ./src_standart/stm32f4xx_adc.o
+ .text.ADC_InjectedSequencerLengthConfig
+                0x00000000       0x10 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_SetInjectedOffset
+                0x00000000       0x16 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_ExternalTrigInjectedConvConfig
+                0x00000000        0xc ./src_standart/stm32f4xx_adc.o
+ .text.ADC_ExternalTrigInjectedConvEdgeConfig
+                0x00000000        0xc ./src_standart/stm32f4xx_adc.o
+ .text.ADC_SoftwareStartInjectedConv
+                0x00000000        0xa ./src_standart/stm32f4xx_adc.o
+ .text.ADC_GetSoftwareStartInjectedConvCmdStatus
+                0x00000000        0x8 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_AutoInjectedConvCmd
+                0x00000000       0x12 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_InjectedDiscModeCmd
+                0x00000000       0x12 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_GetInjectedConversionValue
+                0x00000000       0x1a ./src_standart/stm32f4xx_adc.o
+ .text.ADC_ITConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_GetFlagStatus
+                0x00000000        0xc ./src_standart/stm32f4xx_adc.o
+ .text.ADC_ClearFlag
+                0x00000000        0x6 ./src_standart/stm32f4xx_adc.o
+ .text.ADC_GetITStatus
+                0x00000000       0x1c ./src_standart/stm32f4xx_adc.o
+ .text.ADC_ClearITPendingBit
+                0x00000000        0x8 ./src_standart/stm32f4xx_adc.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_can.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_can.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_can.o
+ .text.CAN_DeInit
+                0x00000000       0x34 ./src_standart/stm32f4xx_can.o
+ .text.CAN_Init
+                0x00000000       0xd6 ./src_standart/stm32f4xx_can.o
+ .text.CAN_FilterInit
+                0x00000000       0xe0 ./src_standart/stm32f4xx_can.o
+ .text.CAN_StructInit
+                0x00000000       0x20 ./src_standart/stm32f4xx_can.o
+ .text.CAN_SlaveStartBank
+                0x00000000       0x3c ./src_standart/stm32f4xx_can.o
+ .text.CAN_DBGFreeze
+                0x00000000       0x12 ./src_standart/stm32f4xx_can.o
+ .text.CAN_TTComModeCmd
+                0x00000000       0x58 ./src_standart/stm32f4xx_can.o
+ .text.CAN_Transmit
+                0x00000000       0xc2 ./src_standart/stm32f4xx_can.o
+ .text.CAN_TransmitStatus
+                0x00000000       0x4c ./src_standart/stm32f4xx_can.o
+ .text.CAN_CancelTransmit
+                0x00000000       0x26 ./src_standart/stm32f4xx_can.o
+ .text.CAN_Receive
+                0x00000000       0x94 ./src_standart/stm32f4xx_can.o
+ .text.CAN_FIFORelease
+                0x00000000       0x16 ./src_standart/stm32f4xx_can.o
+ .text.CAN_MessagePending
+                0x00000000       0x16 ./src_standart/stm32f4xx_can.o
+ .text.CAN_OperatingModeRequest
+                0x00000000       0x88 ./src_standart/stm32f4xx_can.o
+ .text.CAN_Sleep
+                0x00000000       0x1a ./src_standart/stm32f4xx_can.o
+ .text.CAN_WakeUp
+                0x00000000       0x22 ./src_standart/stm32f4xx_can.o
+ .text.CAN_GetLastErrorCode
+                0x00000000        0x8 ./src_standart/stm32f4xx_can.o
+ .text.CAN_GetReceiveErrorCounter
+                0x00000000        0x6 ./src_standart/stm32f4xx_can.o
+ .text.CAN_GetLSBTransmitErrorCounter
+                0x00000000        0x8 ./src_standart/stm32f4xx_can.o
+ .text.CAN_ITConfig
+                0x00000000       0x10 ./src_standart/stm32f4xx_can.o
+ .text.CAN_GetFlagStatus
+                0x00000000       0x30 ./src_standart/stm32f4xx_can.o
+ .text.CAN_ClearFlag
+                0x00000000       0x30 ./src_standart/stm32f4xx_can.o
+ .text.CAN_GetITStatus
+                0x00000000       0xc8 ./src_standart/stm32f4xx_can.o
+ .text.CAN_ClearITPendingBit
+                0x00000000       0x7c ./src_standart/stm32f4xx_can.o
+ .debug_info    0x00000000      0xc8a ./src_standart/stm32f4xx_can.o
+ .debug_abbrev  0x00000000      0x29a ./src_standart/stm32f4xx_can.o
+ .debug_loc     0x00000000      0x86c ./src_standart/stm32f4xx_can.o
+ .debug_aranges
+                0x00000000       0xd8 ./src_standart/stm32f4xx_can.o
+ .debug_ranges  0x00000000      0x118 ./src_standart/stm32f4xx_can.o
+ .debug_line    0x00000000      0x632 ./src_standart/stm32f4xx_can.o
+ .debug_str     0x00000000      0x7d1 ./src_standart/stm32f4xx_can.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_can.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_can.o
+ .debug_frame   0x00000000      0x1c0 ./src_standart/stm32f4xx_can.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_crc.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_crc.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_crc.o
+ .text.CRC_ResetDR
+                0x00000000        0xc ./src_standart/stm32f4xx_crc.o
+ .text.CRC_CalcCRC
+                0x00000000        0xc ./src_standart/stm32f4xx_crc.o
+ .text.CRC_CalcBlockCRC
+                0x00000000       0x1c ./src_standart/stm32f4xx_crc.o
+ .text.CRC_GetCRC
+                0x00000000        0xc ./src_standart/stm32f4xx_crc.o
+ .text.CRC_SetIDRegister
+                0x00000000        0xc ./src_standart/stm32f4xx_crc.o
+ .text.CRC_GetIDRegister
+                0x00000000        0xc ./src_standart/stm32f4xx_crc.o
+ .debug_info    0x00000000      0x20b ./src_standart/stm32f4xx_crc.o
+ .debug_abbrev  0x00000000      0x123 ./src_standart/stm32f4xx_crc.o
+ .debug_loc     0x00000000       0x75 ./src_standart/stm32f4xx_crc.o
+ .debug_aranges
+                0x00000000       0x48 ./src_standart/stm32f4xx_crc.o
+ .debug_ranges  0x00000000       0x38 ./src_standart/stm32f4xx_crc.o
+ .debug_line    0x00000000      0x2a9 ./src_standart/stm32f4xx_crc.o
+ .debug_str     0x00000000      0x2c7 ./src_standart/stm32f4xx_crc.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_crc.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_crc.o
+ .debug_frame   0x00000000       0x70 ./src_standart/stm32f4xx_crc.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_cryp.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_cryp.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_DeInit
+                0x00000000       0x16 ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_Init
+                0x00000000       0x54 ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_StructInit
+                0x00000000        0xc ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_KeyInit
+                0x00000000       0x28 ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_KeyStructInit
+                0x00000000       0x14 ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_IVInit
+                0x00000000       0x18 ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_IVStructInit
+                0x00000000        0xc ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_FIFOFlush
+                0x00000000       0x10 ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_Cmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_DataIn
+                0x00000000        0xc ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_DataOut
+                0x00000000        0xc ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_SaveContext
+                0x00000000       0x9c ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_RestoreContext
+                0x00000000       0x44 ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_DMACmd
+                0x00000000       0x1c ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_ITConfig
+                0x00000000       0x1c ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_GetITStatus
+                0x00000000       0x14 ./src_standart/stm32f4xx_cryp.o
+ .text.CRYP_GetFlagStatus
+                0x00000000       0x1c ./src_standart/stm32f4xx_cryp.o
+ .debug_info    0x00000000      0x75a ./src_standart/stm32f4xx_cryp.o
+ .debug_abbrev  0x00000000      0x1d5 ./src_standart/stm32f4xx_cryp.o
+ .debug_loc     0x00000000      0x1e0 ./src_standart/stm32f4xx_cryp.o
+ .debug_aranges
+                0x00000000       0xa0 ./src_standart/stm32f4xx_cryp.o
+ .debug_ranges  0x00000000       0x90 ./src_standart/stm32f4xx_cryp.o
+ .debug_line    0x00000000      0x46e ./src_standart/stm32f4xx_cryp.o
+ .debug_str     0x00000000      0x650 ./src_standart/stm32f4xx_cryp.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_cryp.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_cryp.o
+ .debug_frame   0x00000000      0x140 ./src_standart/stm32f4xx_cryp.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_cryp_aes.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_cryp_aes.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_cryp_aes.o
+ .text.CRYP_AES_ECB
+                0x00000000      0x196 ./src_standart/stm32f4xx_cryp_aes.o
+ .text.CRYP_AES_CBC
+                0x00000000      0x1bc ./src_standart/stm32f4xx_cryp_aes.o
+ .text.CRYP_AES_CTR
+                0x00000000      0x176 ./src_standart/stm32f4xx_cryp_aes.o
+ .debug_info    0x00000000     0x1551 ./src_standart/stm32f4xx_cryp_aes.o
+ .debug_abbrev  0x00000000      0x27d ./src_standart/stm32f4xx_cryp_aes.o
+ .debug_loc     0x00000000     0x14f9 ./src_standart/stm32f4xx_cryp_aes.o
+ .debug_aranges
+                0x00000000       0x30 ./src_standart/stm32f4xx_cryp_aes.o
+ .debug_ranges  0x00000000       0x20 ./src_standart/stm32f4xx_cryp_aes.o
+ .debug_line    0x00000000      0x6d2 ./src_standart/stm32f4xx_cryp_aes.o
+ .debug_str     0x00000000      0x4f8 ./src_standart/stm32f4xx_cryp_aes.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_cryp_aes.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_cryp_aes.o
+ .debug_frame   0x00000000       0x84 ./src_standart/stm32f4xx_cryp_aes.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_cryp_des.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_cryp_des.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_cryp_des.o
+ .text.CRYP_DES_ECB
+                0x00000000       0xbc ./src_standart/stm32f4xx_cryp_des.o
+ .text.CRYP_DES_CBC
+                0x00000000       0xd4 ./src_standart/stm32f4xx_cryp_des.o
+ .debug_info    0x00000000      0x787 ./src_standart/stm32f4xx_cryp_des.o
+ .debug_abbrev  0x00000000      0x1ef ./src_standart/stm32f4xx_cryp_des.o
+ .debug_loc     0x00000000      0x4d0 ./src_standart/stm32f4xx_cryp_des.o
+ .debug_aranges
+                0x00000000       0x28 ./src_standart/stm32f4xx_cryp_des.o
+ .debug_ranges  0x00000000       0x18 ./src_standart/stm32f4xx_cryp_des.o
+ .debug_line    0x00000000      0x3cb ./src_standart/stm32f4xx_cryp_des.o
+ .debug_str     0x00000000      0x4e3 ./src_standart/stm32f4xx_cryp_des.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_cryp_des.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_cryp_des.o
+ .debug_frame   0x00000000       0x58 ./src_standart/stm32f4xx_cryp_des.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_cryp_tdes.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_cryp_tdes.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_cryp_tdes.o
+ .text.CRYP_TDES_ECB
+                0x00000000       0xd0 ./src_standart/stm32f4xx_cryp_tdes.o
+ .text.CRYP_TDES_CBC
+                0x00000000       0xec ./src_standart/stm32f4xx_cryp_tdes.o
+ .debug_info    0x00000000      0x907 ./src_standart/stm32f4xx_cryp_tdes.o
+ .debug_abbrev  0x00000000      0x1ef ./src_standart/stm32f4xx_cryp_tdes.o
+ .debug_loc     0x00000000      0x6d0 ./src_standart/stm32f4xx_cryp_tdes.o
+ .debug_aranges
+                0x00000000       0x28 ./src_standart/stm32f4xx_cryp_tdes.o
+ .debug_ranges  0x00000000       0x18 ./src_standart/stm32f4xx_cryp_tdes.o
+ .debug_line    0x00000000      0x42a ./src_standart/stm32f4xx_cryp_tdes.o
+ .debug_str     0x00000000      0x4e9 ./src_standart/stm32f4xx_cryp_tdes.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_cryp_tdes.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_cryp_tdes.o
+ .debug_frame   0x00000000       0x58 ./src_standart/stm32f4xx_cryp_tdes.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_dac.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_dac.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_dac.o
+ .text.DAC_DeInit
+                0x00000000       0x1a ./src_standart/stm32f4xx_dac.o
+ .text.DAC_Init
+                0x00000000       0x2c ./src_standart/stm32f4xx_dac.o
+ .text.DAC_StructInit
+                0x00000000        0xc ./src_standart/stm32f4xx_dac.o
+ .text.DAC_Cmd  0x00000000       0x20 ./src_standart/stm32f4xx_dac.o
+ .text.DAC_SoftwareTriggerCmd
+                0x00000000       0x20 ./src_standart/stm32f4xx_dac.o
+ .text.DAC_DualSoftwareTriggerCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_dac.o
+ .text.DAC_WaveGenerationCmd
+                0x00000000       0x1c ./src_standart/stm32f4xx_dac.o
+ .text.DAC_SetChannel1Data
+                0x00000000       0x20 ./src_standart/stm32f4xx_dac.o
+ .text.DAC_SetChannel2Data
+                0x00000000       0x20 ./src_standart/stm32f4xx_dac.o
+ .text.DAC_SetDualChannelData
+                0x00000000       0x18 ./src_standart/stm32f4xx_dac.o
+ .text.DAC_GetDataOutputValue
+                0x00000000       0x24 ./src_standart/stm32f4xx_dac.o
+ .text.DAC_DMACmd
+                0x00000000       0x20 ./src_standart/stm32f4xx_dac.o
+ .text.DAC_ITConfig
+                0x00000000       0x1c ./src_standart/stm32f4xx_dac.o
+ .text.DAC_GetFlagStatus
+                0x00000000       0x14 ./src_standart/stm32f4xx_dac.o
+ .text.DAC_ClearFlag
+                0x00000000        0xc ./src_standart/stm32f4xx_dac.o
+ .text.DAC_GetITStatus
+                0x00000000       0x1c ./src_standart/stm32f4xx_dac.o
+ .text.DAC_ClearITPendingBit
+                0x00000000        0xc ./src_standart/stm32f4xx_dac.o
+ .debug_info    0x00000000      0x691 ./src_standart/stm32f4xx_dac.o
+ .debug_abbrev  0x00000000      0x1d0 ./src_standart/stm32f4xx_dac.o
+ .debug_loc     0x00000000      0x48d ./src_standart/stm32f4xx_dac.o
+ .debug_aranges
+                0x00000000       0xa0 ./src_standart/stm32f4xx_dac.o
+ .debug_ranges  0x00000000       0x90 ./src_standart/stm32f4xx_dac.o
+ .debug_line    0x00000000      0x42f ./src_standart/stm32f4xx_dac.o
+ .debug_str     0x00000000      0x4e6 ./src_standart/stm32f4xx_dac.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_dac.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_dac.o
+ .debug_frame   0x00000000      0x140 ./src_standart/stm32f4xx_dac.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_dbgmcu.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_dbgmcu.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_dbgmcu.o
+ .text.DBGMCU_GetREVID
+                0x00000000        0xc ./src_standart/stm32f4xx_dbgmcu.o
+ .text.DBGMCU_GetDEVID
+                0x00000000       0x10 ./src_standart/stm32f4xx_dbgmcu.o
+ .text.DBGMCU_Config
+                0x00000000       0x18 ./src_standart/stm32f4xx_dbgmcu.o
+ .text.DBGMCU_APB1PeriphConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_dbgmcu.o
+ .text.DBGMCU_APB2PeriphConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_dbgmcu.o
+ .debug_info    0x00000000      0x1dc ./src_standart/stm32f4xx_dbgmcu.o
+ .debug_abbrev  0x00000000       0xed ./src_standart/stm32f4xx_dbgmcu.o
+ .debug_loc     0x00000000       0xae ./src_standart/stm32f4xx_dbgmcu.o
+ .debug_aranges
+                0x00000000       0x40 ./src_standart/stm32f4xx_dbgmcu.o
+ .debug_ranges  0x00000000       0x30 ./src_standart/stm32f4xx_dbgmcu.o
+ .debug_line    0x00000000      0x297 ./src_standart/stm32f4xx_dbgmcu.o
+ .debug_str     0x00000000      0x2bc ./src_standart/stm32f4xx_dbgmcu.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_dbgmcu.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_dbgmcu.o
+ .debug_frame   0x00000000       0x60 ./src_standart/stm32f4xx_dbgmcu.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_dcmi.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_dcmi.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_DeInit
+                0x00000000       0x1c ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_Init
+                0x00000000       0x40 ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_StructInit
+                0x00000000       0x12 ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_CROPConfig
+                0x00000000       0x1c ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_CROPCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_SetEmbeddedSynchroCodes
+                0x00000000       0x20 ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_JPEGCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_Cmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_CaptureCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_ReadData
+                0x00000000        0xc ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_ITConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_GetFlagStatus
+                0x00000000       0x24 ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_ClearFlag
+                0x00000000        0xc ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_GetITStatus
+                0x00000000       0x14 ./src_standart/stm32f4xx_dcmi.o
+ .text.DCMI_ClearITPendingBit
+                0x00000000        0xc ./src_standart/stm32f4xx_dcmi.o
+ .debug_info    0x00000000      0x54a ./src_standart/stm32f4xx_dcmi.o
+ .debug_abbrev  0x00000000      0x1b4 ./src_standart/stm32f4xx_dcmi.o
+ .debug_loc     0x00000000      0x1a5 ./src_standart/stm32f4xx_dcmi.o
+ .debug_aranges
+                0x00000000       0x90 ./src_standart/stm32f4xx_dcmi.o
+ .debug_ranges  0x00000000       0x80 ./src_standart/stm32f4xx_dcmi.o
+ .debug_line    0x00000000      0x415 ./src_standart/stm32f4xx_dcmi.o
+ .debug_str     0x00000000      0x555 ./src_standart/stm32f4xx_dcmi.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_dcmi.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_dcmi.o
+ .debug_frame   0x00000000      0x108 ./src_standart/stm32f4xx_dcmi.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_dma.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_dma.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_dma.o
+ .text.DMA_StructInit
+                0x00000000       0x22 ./src_standart/stm32f4xx_dma.o
+ .text.DMA_PeriphIncOffsetSizeConfig
+                0x00000000       0x12 ./src_standart/stm32f4xx_dma.o
+ .text.DMA_FlowControllerConfig
+                0x00000000       0x12 ./src_standart/stm32f4xx_dma.o
+ .text.DMA_SetCurrDataCounter
+                0x00000000        0x4 ./src_standart/stm32f4xx_dma.o
+ .text.DMA_GetCurrDataCounter
+                0x00000000        0x6 ./src_standart/stm32f4xx_dma.o
+ .text.DMA_DoubleBufferModeConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_dma.o
+ .text.DMA_DoubleBufferModeCmd
+                0x00000000       0x12 ./src_standart/stm32f4xx_dma.o
+ .text.DMA_MemoryTargetConfig
+                0x00000000        0xa ./src_standart/stm32f4xx_dma.o
+ .text.DMA_GetCurrentMemoryTarget
+                0x00000000        0x8 ./src_standart/stm32f4xx_dma.o
+ .text.DMA_GetCmdStatus
+                0x00000000        0x8 ./src_standart/stm32f4xx_dma.o
+ .text.DMA_GetFIFOStatus
+                0x00000000        0x8 ./src_standart/stm32f4xx_dma.o
+ .text.DMA_GetFlagStatus
+                0x00000000       0x38 ./src_standart/stm32f4xx_dma.o
+ .text.DMA_ClearFlag
+                0x00000000       0x30 ./src_standart/stm32f4xx_dma.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_exti.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_exti.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_exti.o
+ .text.EXTI_DeInit
+                0x00000000       0x1c ./src_standart/stm32f4xx_exti.o
+ .text.EXTI_Init
+                0x00000000       0x74 ./src_standart/stm32f4xx_exti.o
+ .text.EXTI_StructInit
+                0x00000000        0xe ./src_standart/stm32f4xx_exti.o
+ .text.EXTI_GenerateSWInterrupt
+                0x00000000       0x10 ./src_standart/stm32f4xx_exti.o
+ .text.EXTI_GetFlagStatus
+                0x00000000       0x14 ./src_standart/stm32f4xx_exti.o
+ .text.EXTI_ClearFlag
+                0x00000000        0xc ./src_standart/stm32f4xx_exti.o
+ .text.EXTI_GetITStatus
+                0x00000000       0x1c ./src_standart/stm32f4xx_exti.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_flash.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_flash.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_SetLatency
+                0x00000000        0xc ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_PrefetchBufferCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_InstructionCacheCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_DataCacheCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_InstructionCacheReset
+                0x00000000       0x10 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_DataCacheReset
+                0x00000000       0x10 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_Unlock
+                0x00000000       0x1c ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_Lock
+                0x00000000       0x10 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_OB_Unlock
+                0x00000000       0x1c ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_OB_Lock
+                0x00000000       0x10 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_OB_BORConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_OB_GetUser
+                0x00000000       0x10 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_OB_GetWRP
+                0x00000000        0xc ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_OB_GetRDP
+                0x00000000       0x10 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_OB_GetBOR
+                0x00000000       0x10 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_ITConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_GetFlagStatus
+                0x00000000       0x14 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_ClearFlag
+                0x00000000        0xc ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_GetStatus
+                0x00000000       0x34 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_WaitForLastOperation
+                0x00000000       0x22 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_EraseSector
+                0x00000000       0x6c ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_EraseAllSectors
+                0x00000000       0x5c ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_ProgramDoubleWord
+                0x00000000       0x40 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_ProgramWord
+                0x00000000       0x3c ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_ProgramHalfWord
+                0x00000000       0x3c ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_ProgramByte
+                0x00000000       0x38 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_OB_WRPConfig
+                0x00000000       0x28 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_OB_RDPConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_OB_UserConfig
+                0x00000000       0x28 ./src_standart/stm32f4xx_flash.o
+ .text.FLASH_OB_Launch
+                0x00000000       0x14 ./src_standart/stm32f4xx_flash.o
+ .debug_info    0x00000000      0x7f0 ./src_standart/stm32f4xx_flash.o
+ .debug_abbrev  0x00000000      0x21a ./src_standart/stm32f4xx_flash.o
+ .debug_loc     0x00000000      0x589 ./src_standart/stm32f4xx_flash.o
+ .debug_aranges
+                0x00000000      0x108 ./src_standart/stm32f4xx_flash.o
+ .debug_ranges  0x00000000       0xf8 ./src_standart/stm32f4xx_flash.o
+ .debug_line    0x00000000      0x53b ./src_standart/stm32f4xx_flash.o
+ .debug_str     0x00000000      0x60e ./src_standart/stm32f4xx_flash.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_flash.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_flash.o
+ .debug_frame   0x00000000      0x264 ./src_standart/stm32f4xx_flash.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_fsmc.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_fsmc.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_NORSRAMDeInit
+                0x00000000       0x2e ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_NORSRAMInit
+                0x00000000       0xb4 ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_NORSRAMStructInit
+                0x00000000       0x4e ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_NORSRAMCmd
+                0x00000000       0x20 ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_NANDDeInit
+                0x00000000       0x24 ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_NANDInit
+                0x00000000       0x68 ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_NANDStructInit
+                0x00000000       0x2a ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_NANDCmd
+                0x00000000       0x34 ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_NANDECCCmd
+                0x00000000       0x34 ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_GetECC
+                0x00000000       0x14 ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_PCCARDDeInit
+                0x00000000       0x1c ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_PCCARDInit
+                0x00000000       0x68 ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_PCCARDStructInit
+                0x00000000       0x2a ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_PCCARDCmd
+                0x00000000       0x20 ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_ITConfig
+                0x00000000       0x44 ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_GetFlagStatus
+                0x00000000       0x2c ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_ClearFlag
+                0x00000000       0x2c ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_GetITStatus
+                0x00000000       0x34 ./src_standart/stm32f4xx_fsmc.o
+ .text.FSMC_ClearITPendingBit
+                0x00000000       0x2c ./src_standart/stm32f4xx_fsmc.o
+ .debug_info    0x00000000      0x8fe ./src_standart/stm32f4xx_fsmc.o
+ .debug_abbrev  0x00000000      0x18e ./src_standart/stm32f4xx_fsmc.o
+ .debug_loc     0x00000000      0x38c ./src_standart/stm32f4xx_fsmc.o
+ .debug_aranges
+                0x00000000       0xb0 ./src_standart/stm32f4xx_fsmc.o
+ .debug_ranges  0x00000000       0xa0 ./src_standart/stm32f4xx_fsmc.o
+ .debug_line    0x00000000      0x519 ./src_standart/stm32f4xx_fsmc.o
+ .debug_str     0x00000000      0x806 ./src_standart/stm32f4xx_fsmc.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_fsmc.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_fsmc.o
+ .debug_frame   0x00000000      0x168 ./src_standart/stm32f4xx_fsmc.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_gpio.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_gpio.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x24 ./src_standart/stm32f4xx_gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x00000000        0xc ./src_standart/stm32f4xx_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000        0x6 ./src_standart/stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000        0xc ./src_standart/stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000        0x6 ./src_standart/stm32f4xx_gpio.o
+ .text.GPIO_WriteBit
+                0x00000000        0xa ./src_standart/stm32f4xx_gpio.o
+ .text.GPIO_Write
+                0x00000000        0x4 ./src_standart/stm32f4xx_gpio.o
+ .text.GPIO_ToggleBits
+                0x00000000        0x8 ./src_standart/stm32f4xx_gpio.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_hash.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_hash.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_hash.o
+ .text.HASH_DeInit
+                0x00000000       0x16 ./src_standart/stm32f4xx_hash.o
+ .text.HASH_Init
+                0x00000000       0x40 ./src_standart/stm32f4xx_hash.o
+ .text.HASH_StructInit
+                0x00000000        0xc ./src_standart/stm32f4xx_hash.o
+ .text.HASH_Reset
+                0x00000000       0x10 ./src_standart/stm32f4xx_hash.o
+ .text.HASH_SetLastWordValidBitsNbr
+                0x00000000       0x18 ./src_standart/stm32f4xx_hash.o
+ .text.HASH_DataIn
+                0x00000000        0xc ./src_standart/stm32f4xx_hash.o
+ .text.HASH_GetInFIFOWordsNbr
+                0x00000000       0x10 ./src_standart/stm32f4xx_hash.o
+ .text.HASH_GetDigest
+                0x00000000       0x1c ./src_standart/stm32f4xx_hash.o
+ .text.HASH_StartDigest
+                0x00000000       0x10 ./src_standart/stm32f4xx_hash.o
+ .text.HASH_SaveContext
+                0x00000000       0x2c ./src_standart/stm32f4xx_hash.o
+ .text.HASH_RestoreContext
+                0x00000000       0x34 ./src_standart/stm32f4xx_hash.o
+ .text.HASH_DMACmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_hash.o
+ .text.HASH_ITConfig
+                0x00000000       0x1c ./src_standart/stm32f4xx_hash.o
+ .text.HASH_GetFlagStatus
+                0x00000000       0x1c ./src_standart/stm32f4xx_hash.o
+ .text.HASH_ClearFlag
+                0x00000000        0xc ./src_standart/stm32f4xx_hash.o
+ .text.HASH_GetITStatus
+                0x00000000       0x18 ./src_standart/stm32f4xx_hash.o
+ .text.HASH_ClearITPendingBit
+                0x00000000       0x10 ./src_standart/stm32f4xx_hash.o
+ .debug_info    0x00000000      0x588 ./src_standart/stm32f4xx_hash.o
+ .debug_abbrev  0x00000000      0x1ff ./src_standart/stm32f4xx_hash.o
+ .debug_loc     0x00000000      0x1cb ./src_standart/stm32f4xx_hash.o
+ .debug_aranges
+                0x00000000       0xa0 ./src_standart/stm32f4xx_hash.o
+ .debug_ranges  0x00000000       0x90 ./src_standart/stm32f4xx_hash.o
+ .debug_line    0x00000000      0x444 ./src_standart/stm32f4xx_hash.o
+ .debug_str     0x00000000      0x4c5 ./src_standart/stm32f4xx_hash.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_hash.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_hash.o
+ .debug_frame   0x00000000      0x140 ./src_standart/stm32f4xx_hash.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_hash_md5.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_hash_md5.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_hash_md5.o
+ .text.HASH_MD5
+                0x00000000       0x90 ./src_standart/stm32f4xx_hash_md5.o
+ .text.HMAC_MD5
+                0x00000000      0x13a ./src_standart/stm32f4xx_hash_md5.o
+ .debug_info    0x00000000      0x6a3 ./src_standart/stm32f4xx_hash_md5.o
+ .debug_abbrev  0x00000000      0x1ff ./src_standart/stm32f4xx_hash_md5.o
+ .debug_loc     0x00000000      0x4e8 ./src_standart/stm32f4xx_hash_md5.o
+ .debug_aranges
+                0x00000000       0x28 ./src_standart/stm32f4xx_hash_md5.o
+ .debug_ranges  0x00000000       0x18 ./src_standart/stm32f4xx_hash_md5.o
+ .debug_line    0x00000000      0x428 ./src_standart/stm32f4xx_hash_md5.o
+ .debug_str     0x00000000      0x3eb ./src_standart/stm32f4xx_hash_md5.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_hash_md5.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_hash_md5.o
+ .debug_frame   0x00000000       0x54 ./src_standart/stm32f4xx_hash_md5.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_hash_sha1.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_hash_sha1.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_hash_sha1.o
+ .text.HASH_SHA1
+                0x00000000       0x94 ./src_standart/stm32f4xx_hash_sha1.o
+ .text.HMAC_SHA1
+                0x00000000      0x140 ./src_standart/stm32f4xx_hash_sha1.o
+ .debug_info    0x00000000      0x704 ./src_standart/stm32f4xx_hash_sha1.o
+ .debug_abbrev  0x00000000      0x1ff ./src_standart/stm32f4xx_hash_sha1.o
+ .debug_loc     0x00000000      0x568 ./src_standart/stm32f4xx_hash_sha1.o
+ .debug_aranges
+                0x00000000       0x28 ./src_standart/stm32f4xx_hash_sha1.o
+ .debug_ranges  0x00000000       0x18 ./src_standart/stm32f4xx_hash_sha1.o
+ .debug_line    0x00000000      0x43f ./src_standart/stm32f4xx_hash_sha1.o
+ .debug_str     0x00000000      0x3f0 ./src_standart/stm32f4xx_hash_sha1.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_hash_sha1.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_hash_sha1.o
+ .debug_frame   0x00000000       0x54 ./src_standart/stm32f4xx_hash_sha1.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_i2c.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_i2c.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_DeInit
+                0x00000000       0x5c ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_Init
+                0x00000000       0xdc ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_StructInit
+                0x00000000       0x1c ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_Cmd  0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_GenerateSTART
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_GenerateSTOP
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_Send7bitAddress
+                0x00000000       0x10 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_AcknowledgeConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_OwnAddress2Config
+                0x00000000       0x12 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_DualAddressCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_GeneralCallCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_SoftwareResetCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_StretchClockCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_FastModeDutyCycleConfig
+                0x00000000       0x1c ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_NACKPositionConfig
+                0x00000000       0x1c ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_SMBusAlertConfig
+                0x00000000       0x1c ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_ARPCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_SendData
+                0x00000000        0x4 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_ReceiveData
+                0x00000000        0x6 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_TransmitPEC
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_PECPositionConfig
+                0x00000000       0x1c ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_CalculatePEC
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_GetPEC
+                0x00000000        0x8 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_DMACmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_DMALastTransferCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_ReadRegister
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_ITConfig
+                0x00000000       0x12 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_CheckEvent
+                0x00000000       0x18 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_GetLastEvent
+                0x00000000       0x10 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_GetFlagStatus
+                0x00000000       0x34 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_ClearFlag
+                0x00000000        0x8 ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_GetITStatus
+                0x00000000       0x1c ./src_standart/stm32f4xx_i2c.o
+ .text.I2C_ClearITPendingBit
+                0x00000000        0x8 ./src_standart/stm32f4xx_i2c.o
+ .debug_info    0x00000000      0xb86 ./src_standart/stm32f4xx_i2c.o
+ .debug_abbrev  0x00000000      0x1dd ./src_standart/stm32f4xx_i2c.o
+ .debug_loc     0x00000000      0x6ad ./src_standart/stm32f4xx_i2c.o
+ .debug_aranges
+                0x00000000      0x120 ./src_standart/stm32f4xx_i2c.o
+ .debug_ranges  0x00000000      0x110 ./src_standart/stm32f4xx_i2c.o
+ .debug_line    0x00000000      0x5cb ./src_standart/stm32f4xx_i2c.o
+ .debug_str     0x00000000      0x70a ./src_standart/stm32f4xx_i2c.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_i2c.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_i2c.o
+ .debug_frame   0x00000000      0x240 ./src_standart/stm32f4xx_i2c.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_iwdg.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_iwdg.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_iwdg.o
+ .text.IWDG_WriteAccessCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_iwdg.o
+ .text.IWDG_SetPrescaler
+                0x00000000        0xc ./src_standart/stm32f4xx_iwdg.o
+ .text.IWDG_SetReload
+                0x00000000        0xc ./src_standart/stm32f4xx_iwdg.o
+ .text.IWDG_ReloadCounter
+                0x00000000       0x10 ./src_standart/stm32f4xx_iwdg.o
+ .text.IWDG_Enable
+                0x00000000       0x10 ./src_standart/stm32f4xx_iwdg.o
+ .text.IWDG_GetFlagStatus
+                0x00000000       0x14 ./src_standart/stm32f4xx_iwdg.o
+ .debug_info    0x00000000      0x209 ./src_standart/stm32f4xx_iwdg.o
+ .debug_abbrev  0x00000000      0x110 ./src_standart/stm32f4xx_iwdg.o
+ .debug_loc     0x00000000       0x62 ./src_standart/stm32f4xx_iwdg.o
+ .debug_aranges
+                0x00000000       0x48 ./src_standart/stm32f4xx_iwdg.o
+ .debug_ranges  0x00000000       0x38 ./src_standart/stm32f4xx_iwdg.o
+ .debug_line    0x00000000      0x2a0 ./src_standart/stm32f4xx_iwdg.o
+ .debug_str     0x00000000      0x2e8 ./src_standart/stm32f4xx_iwdg.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_iwdg.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_iwdg.o
+ .debug_frame   0x00000000       0x70 ./src_standart/stm32f4xx_iwdg.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_pwr.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_pwr.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_pwr.o
+ .text.PWR_DeInit
+                0x00000000       0x1a ./src_standart/stm32f4xx_pwr.o
+ .text.PWR_BackupAccessCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_pwr.o
+ .text.PWR_PVDLevelConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_pwr.o
+ .text.PWR_PVDCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_pwr.o
+ .text.PWR_WakeUpPinCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_pwr.o
+ .text.PWR_BackupRegulatorCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_pwr.o
+ .text.PWR_MainRegulatorModeConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_pwr.o
+ .text.PWR_FlashPowerDownCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_pwr.o
+ .text.PWR_EnterSTOPMode
+                0x00000000       0x34 ./src_standart/stm32f4xx_pwr.o
+ .text.PWR_EnterSTANDBYMode
+                0x00000000       0x28 ./src_standart/stm32f4xx_pwr.o
+ .text.PWR_GetFlagStatus
+                0x00000000       0x14 ./src_standart/stm32f4xx_pwr.o
+ .text.PWR_ClearFlag
+                0x00000000       0x10 ./src_standart/stm32f4xx_pwr.o
+ .debug_info    0x00000000      0x544 ./src_standart/stm32f4xx_pwr.o
+ .debug_abbrev  0x00000000      0x1c4 ./src_standart/stm32f4xx_pwr.o
+ .debug_loc     0x00000000      0x111 ./src_standart/stm32f4xx_pwr.o
+ .debug_aranges
+                0x00000000       0x78 ./src_standart/stm32f4xx_pwr.o
+ .debug_ranges  0x00000000       0x68 ./src_standart/stm32f4xx_pwr.o
+ .debug_line    0x00000000      0x3b9 ./src_standart/stm32f4xx_pwr.o
+ .debug_str     0x00000000      0x424 ./src_standart/stm32f4xx_pwr.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_pwr.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_pwr.o
+ .debug_frame   0x00000000       0xd8 ./src_standart/stm32f4xx_pwr.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_rcc.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_rcc.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x34 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x10 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x14 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_HSICmd
+                0x00000000        0xc ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x20 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_LSICmd
+                0x00000000        0xc ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x20 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_PLLCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_PLLI2SConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_PLLI2SCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_MCO1Config
+                0x00000000       0x14 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_MCO2Config
+                0x00000000       0x14 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x10 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x14 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x14 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_GetClocksFreq
+                0x00000000       0x88 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x30 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_I2SCLKConfig
+                0x00000000        0xc ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphResetCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphResetCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphClockLPModeCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphClockLPModeCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockLPModeCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphClockLPModeCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphClockLPModeCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0x28 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x30 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x10 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x14 ./src_standart/stm32f4xx_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000        0xc ./src_standart/stm32f4xx_rcc.o
+ .data.APBAHBPrescTable
+                0x00000000       0x10 ./src_standart/stm32f4xx_rcc.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_rng.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_rng.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_rng.o
+ .text.RNG_DeInit
+                0x00000000       0x16 ./src_standart/stm32f4xx_rng.o
+ .text.RNG_Cmd  0x00000000       0x18 ./src_standart/stm32f4xx_rng.o
+ .text.RNG_GetRandomNumber
+                0x00000000        0xc ./src_standart/stm32f4xx_rng.o
+ .text.RNG_ITConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_rng.o
+ .text.RNG_GetFlagStatus
+                0x00000000       0x14 ./src_standart/stm32f4xx_rng.o
+ .text.RNG_ClearFlag
+                0x00000000       0x10 ./src_standart/stm32f4xx_rng.o
+ .text.RNG_GetITStatus
+                0x00000000       0x14 ./src_standart/stm32f4xx_rng.o
+ .text.RNG_ClearITPendingBit
+                0x00000000       0x10 ./src_standart/stm32f4xx_rng.o
+ .debug_info    0x00000000      0x2c9 ./src_standart/stm32f4xx_rng.o
+ .debug_abbrev  0x00000000      0x17a ./src_standart/stm32f4xx_rng.o
+ .debug_loc     0x00000000      0x102 ./src_standart/stm32f4xx_rng.o
+ .debug_aranges
+                0x00000000       0x58 ./src_standart/stm32f4xx_rng.o
+ .debug_ranges  0x00000000       0x48 ./src_standart/stm32f4xx_rng.o
+ .debug_line    0x00000000      0x349 ./src_standart/stm32f4xx_rng.o
+ .debug_str     0x00000000      0x30c ./src_standart/stm32f4xx_rng.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_rng.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_rng.o
+ .debug_frame   0x00000000       0x98 ./src_standart/stm32f4xx_rng.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_rtc.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_rtc.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_ByteToBcd2
+                0x00000000       0x1a ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_Bcd2ToByte
+                0x00000000       0x12 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_StructInit
+                0x00000000        0xc ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_WriteProtectionCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_EnterInitMode
+                0x00000000       0x40 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_ExitInitMode
+                0x00000000       0x10 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_Init
+                0x00000000       0x44 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_WaitForSynchro
+                0x00000000       0x44 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_DeInit
+                0x00000000       0x84 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_RefClockCmd
+                0x00000000       0x34 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_BypassShadowCmd
+                0x00000000       0x24 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_SetTime
+                0x00000000       0x90 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_TimeStructInit
+                0x00000000        0xc ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_GetTime
+                0x00000000       0x44 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_GetSubSecond
+                0x00000000        0xc ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_SetDate
+                0x00000000       0x84 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_DateStructInit
+                0x00000000        0xe ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_GetDate
+                0x00000000       0x40 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_SetAlarm
+                0x00000000       0xa4 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_AlarmStructInit
+                0x00000000       0x14 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_GetAlarm
+                0x00000000       0x64 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_AlarmCmd
+                0x00000000       0x5c ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_AlarmSubSecondConfig
+                0x00000000       0x24 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_GetAlarmSubSecond
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_WakeUpClockConfig
+                0x00000000       0x24 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_SetWakeUpCounter
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_GetWakeUpCounter
+                0x00000000        0xc ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_WakeUpCmd
+                0x00000000       0x54 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_DayLightSavingConfig
+                0x00000000       0x24 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_GetStoreOperation
+                0x00000000       0x10 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_OutputConfig
+                0x00000000       0x24 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_CoarseCalibConfig
+                0x00000000       0x2c ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_CoarseCalibCmd
+                0x00000000       0x34 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_CalibOutputCmd
+                0x00000000       0x24 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_CalibOutputConfig
+                0x00000000       0x24 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_SmoothCalibConfig
+                0x00000000       0x44 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_TimeStampCmd
+                0x00000000       0x28 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_GetTimeStamp
+                0x00000000       0x74 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_GetTimeStampSubSecond
+                0x00000000        0xc ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_TamperTriggerConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_TamperCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_TamperFilterConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_TamperSamplingFreqConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_TamperPinsPrechargeDuration
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_TimeStampOnTamperDetectionCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_TamperPullUpCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_WriteBackupRegister
+                0x00000000       0x20 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_ReadBackupRegister
+                0x00000000       0x20 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_TamperPinSelection
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_TimeStampPinSelection
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_OutputTypeConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_SynchroShiftConfig
+                0x00000000       0x54 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_ITConfig
+                0x00000000       0x3c ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_GetFlagStatus
+                0x00000000       0x1c ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_ClearFlag
+                0x00000000       0x1c ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_GetITStatus
+                0x00000000       0x30 ./src_standart/stm32f4xx_rtc.o
+ .text.RTC_ClearITPendingBit
+                0x00000000       0x1c ./src_standart/stm32f4xx_rtc.o
+ .debug_info    0x00000000     0x1365 ./src_standart/stm32f4xx_rtc.o
+ .debug_abbrev  0x00000000      0x22a ./src_standart/stm32f4xx_rtc.o
+ .debug_loc     0x00000000     0x1015 ./src_standart/stm32f4xx_rtc.o
+ .debug_aranges
+                0x00000000      0x1e0 ./src_standart/stm32f4xx_rtc.o
+ .debug_ranges  0x00000000      0x1d0 ./src_standart/stm32f4xx_rtc.o
+ .debug_line    0x00000000      0x94e ./src_standart/stm32f4xx_rtc.o
+ .debug_str     0x00000000      0xbc4 ./src_standart/stm32f4xx_rtc.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_rtc.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_rtc.o
+ .debug_frame   0x00000000      0x484 ./src_standart/stm32f4xx_rtc.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_sdio.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_sdio.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_DeInit
+                0x00000000       0x1a ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_Init
+                0x00000000       0x30 ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_StructInit
+                0x00000000       0x10 ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_ClockCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_SetPowerState
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_GetPowerState
+                0x00000000       0x10 ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_SendCommand
+                0x00000000       0x2c ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_CmdStructInit
+                0x00000000        0xe ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_GetCommandResponse
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_GetResponse
+                0x00000000       0x18 ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_DataConfig
+                0x00000000       0x2c ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_DataStructInit
+                0x00000000       0x14 ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_GetDataCounter
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_ReadData
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_WriteData
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_GetFIFOCount
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_StartSDIOReadWait
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_StopSDIOReadWait
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_SetSDIOReadWaitMode
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_SetSDIOOperation
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_SendSDIOSuspendCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_CommandCompletionCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_CEATAITCmd
+                0x00000000       0x14 ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_SendCEATACmd
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_DMACmd
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_ITConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_GetFlagStatus
+                0x00000000       0x14 ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_ClearFlag
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_GetITStatus
+                0x00000000       0x14 ./src_standart/stm32f4xx_sdio.o
+ .text.SDIO_ClearITPendingBit
+                0x00000000        0xc ./src_standart/stm32f4xx_sdio.o
+ .debug_info    0x00000000      0x839 ./src_standart/stm32f4xx_sdio.o
+ .debug_abbrev  0x00000000      0x1ad ./src_standart/stm32f4xx_sdio.o
+ .debug_loc     0x00000000      0x217 ./src_standart/stm32f4xx_sdio.o
+ .debug_aranges
+                0x00000000      0x108 ./src_standart/stm32f4xx_sdio.o
+ .debug_ranges  0x00000000       0xf8 ./src_standart/stm32f4xx_sdio.o
+ .debug_line    0x00000000      0x538 ./src_standart/stm32f4xx_sdio.o
+ .debug_str     0x00000000      0x6d3 ./src_standart/stm32f4xx_sdio.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_sdio.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_sdio.o
+ .debug_frame   0x00000000      0x214 ./src_standart/stm32f4xx_sdio.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_spi.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_spi.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_I2S_DeInit
+                0x00000000       0x64 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_Init
+                0x00000000       0x3e ./src_standart/stm32f4xx_spi.o
+ .text.I2S_Init
+                0x00000000       0xd0 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_StructInit
+                0x00000000       0x18 ./src_standart/stm32f4xx_spi.o
+ .text.I2S_StructInit
+                0x00000000       0x12 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_Cmd  0x00000000       0x18 ./src_standart/stm32f4xx_spi.o
+ .text.I2S_Cmd  0x00000000       0x18 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_DataSizeConfig
+                0x00000000       0x16 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_BiDirectionalLineConfig
+                0x00000000       0x1c ./src_standart/stm32f4xx_spi.o
+ .text.SPI_NSSInternalSoftwareConfig
+                0x00000000       0x1e ./src_standart/stm32f4xx_spi.o
+ .text.SPI_SSOutputCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_TIModeCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_spi.o
+ .text.I2S_FullDuplexConfig
+                0x00000000       0x46 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_I2S_ReceiveData
+                0x00000000        0x6 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_I2S_SendData
+                0x00000000        0x4 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_CalculateCRC
+                0x00000000       0x18 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_TransmitCRC
+                0x00000000        0xc ./src_standart/stm32f4xx_spi.o
+ .text.SPI_GetCRC
+                0x00000000        0xc ./src_standart/stm32f4xx_spi.o
+ .text.SPI_GetCRCPolynomial
+                0x00000000        0x6 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_I2S_DMACmd
+                0x00000000       0x12 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_I2S_ITConfig
+                0x00000000       0x1e ./src_standart/stm32f4xx_spi.o
+ .text.SPI_I2S_GetFlagStatus
+                0x00000000        0xc ./src_standart/stm32f4xx_spi.o
+ .text.SPI_I2S_ClearFlag
+                0x00000000        0x8 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_I2S_GetITStatus
+                0x00000000       0x26 ./src_standart/stm32f4xx_spi.o
+ .text.SPI_I2S_ClearITPendingBit
+                0x00000000       0x10 ./src_standart/stm32f4xx_spi.o
+ .debug_info    0x00000000      0xba3 ./src_standart/stm32f4xx_spi.o
+ .debug_abbrev  0x00000000      0x1e5 ./src_standart/stm32f4xx_spi.o
+ .debug_loc     0x00000000      0x5f5 ./src_standart/stm32f4xx_spi.o
+ .debug_aranges
+                0x00000000       0xe0 ./src_standart/stm32f4xx_spi.o
+ .debug_ranges  0x00000000       0xd0 ./src_standart/stm32f4xx_spi.o
+ .debug_line    0x00000000      0x56b ./src_standart/stm32f4xx_spi.o
+ .debug_str     0x00000000      0x734 ./src_standart/stm32f4xx_spi.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_spi.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_spi.o
+ .debug_frame   0x00000000      0x1d0 ./src_standart/stm32f4xx_spi.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_syscfg.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_syscfg.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_syscfg.o
+ .text.SYSCFG_DeInit
+                0x00000000       0x1a ./src_standart/stm32f4xx_syscfg.o
+ .text.SYSCFG_MemoryRemapConfig
+                0x00000000        0xc ./src_standart/stm32f4xx_syscfg.o
+ .text.SYSCFG_EXTILineConfig
+                0x00000000       0x2a ./src_standart/stm32f4xx_syscfg.o
+ .text.SYSCFG_ETH_MediaInterfaceConfig
+                0x00000000        0xc ./src_standart/stm32f4xx_syscfg.o
+ .text.SYSCFG_CompensationCellCmd
+                0x00000000        0xc ./src_standart/stm32f4xx_syscfg.o
+ .text.SYSCFG_GetCompensationCellStatus
+                0x00000000       0x10 ./src_standart/stm32f4xx_syscfg.o
+ .debug_info    0x00000000      0x2b5 ./src_standart/stm32f4xx_syscfg.o
+ .debug_abbrev  0x00000000      0x167 ./src_standart/stm32f4xx_syscfg.o
+ .debug_loc     0x00000000       0xa6 ./src_standart/stm32f4xx_syscfg.o
+ .debug_aranges
+                0x00000000       0x48 ./src_standart/stm32f4xx_syscfg.o
+ .debug_ranges  0x00000000       0x38 ./src_standart/stm32f4xx_syscfg.o
+ .debug_line    0x00000000      0x328 ./src_standart/stm32f4xx_syscfg.o
+ .debug_str     0x00000000      0x387 ./src_standart/stm32f4xx_syscfg.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_syscfg.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_syscfg.o
+ .debug_frame   0x00000000       0x80 ./src_standart/stm32f4xx_syscfg.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_tim.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_tim.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_tim.o
+ .text.TI1_Config
+                0x00000000       0x32 ./src_standart/stm32f4xx_tim.o
+ .text.TI2_Config
+                0x00000000       0x3a ./src_standart/stm32f4xx_tim.o
+ .text.TIM_DeInit
+                0x00000000      0x154 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_PrescalerConfig
+                0x00000000        0x6 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_CounterModeConfig
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SetCounter
+                0x00000000        0x4 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SetAutoreload
+                0x00000000        0x4 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_GetCounter
+                0x00000000        0x4 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_GetPrescaler
+                0x00000000        0x6 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_UpdateDisableConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_UpdateRequestConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ARRPreloadConfig
+                0x00000000       0x18 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SelectOnePulseMode
+                0x00000000       0x16 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SetClockDivision
+                0x00000000       0x16 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC1Init
+                0x00000000       0x70 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC2Init
+                0x00000000       0x88 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC3Init
+                0x00000000       0x84 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC4Init
+                0x00000000       0x68 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OCStructInit
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SelectOCxM
+                0x00000000       0x46 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SetCompare1
+                0x00000000        0x4 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SetCompare2
+                0x00000000        0x4 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SetCompare3
+                0x00000000        0x4 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SetCompare4
+                0x00000000        0x4 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ForcedOC1Config
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ForcedOC2Config
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ForcedOC3Config
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ForcedOC4Config
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC1PreloadConfig
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC2PreloadConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC3PreloadConfig
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC4PreloadConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC1FastConfig
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC2FastConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC3FastConfig
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC4FastConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ClearOC1Ref
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ClearOC2Ref
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ClearOC3Ref
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ClearOC4Ref
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC1PolarityConfig
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC1NPolarityConfig
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC2PolarityConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC2NPolarityConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC3PolarityConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC3NPolarityConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_OC4PolarityConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_CCxCmd
+                0x00000000       0x1c ./src_standart/stm32f4xx_tim.o
+ .text.TIM_CCxNCmd
+                0x00000000       0x1c ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ICStructInit
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_GetCapture1
+                0x00000000        0x4 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_GetCapture2
+                0x00000000        0x4 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_GetCapture3
+                0x00000000        0x4 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_GetCapture4
+                0x00000000        0x4 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SetIC1Prescaler
+                0x00000000       0x16 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SetIC2Prescaler
+                0x00000000       0x1a ./src_standart/stm32f4xx_tim.o
+ .text.TIM_PWMIConfig
+                0x00000000       0x6e ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SetIC3Prescaler
+                0x00000000       0x16 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SetIC4Prescaler
+                0x00000000       0x1a ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ICInit
+                0x00000000       0xb8 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_BDTRConfig
+                0x00000000       0x22 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_BDTRStructInit
+                0x00000000       0x12 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_CtrlPWMOutputs
+                0x00000000       0x1c ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SelectCOM
+                0x00000000       0x18 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_CCPreloadControl
+                0x00000000       0x18 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_GenerateEvent
+                0x00000000        0x4 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_GetFlagStatus
+                0x00000000        0xc ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ClearFlag
+                0x00000000        0x8 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_DMAConfig
+                0x00000000        0x8 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_DMACmd
+                0x00000000       0x12 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SelectCCDMA
+                0x00000000       0x18 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_InternalClockConfig
+                0x00000000        0xe ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ITRxExternalClockConfig
+                0x00000000       0x1a ./src_standart/stm32f4xx_tim.o
+ .text.TIM_TIxExternalClockConfig
+                0x00000000       0x34 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SelectInputTrigger
+                0x00000000       0x10 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SelectSlaveMode
+                0x00000000       0x16 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SelectMasterSlaveMode
+                0x00000000       0x16 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ETRConfig
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ETRClockMode1Config
+                0x00000000       0x1a ./src_standart/stm32f4xx_tim.o
+ .text.TIM_ETRClockMode2Config
+                0x00000000       0x14 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_EncoderInterfaceConfig
+                0x00000000       0x3c ./src_standart/stm32f4xx_tim.o
+ .text.TIM_SelectHallSensor
+                0x00000000       0x18 ./src_standart/stm32f4xx_tim.o
+ .text.TIM_RemapConfig
+                0x00000000        0x6 ./src_standart/stm32f4xx_tim.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_usart.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_usart.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_usart.o
+ .text.USART_DeInit
+                0x00000000       0xa8 ./src_standart/stm32f4xx_usart.o
+ .text.USART_Init
+                0x00000000       0xb0 ./src_standart/stm32f4xx_usart.o
+ .text.USART_StructInit
+                0x00000000       0x16 ./src_standart/stm32f4xx_usart.o
+ .text.USART_ClockInit
+                0x00000000       0x20 ./src_standart/stm32f4xx_usart.o
+ .text.USART_ClockStructInit
+                0x00000000        0xc ./src_standart/stm32f4xx_usart.o
+ .text.USART_Cmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_usart.o
+ .text.USART_SetPrescaler
+                0x00000000       0x12 ./src_standart/stm32f4xx_usart.o
+ .text.USART_OverSampling8Cmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_usart.o
+ .text.USART_OneBitMethodCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_usart.o
+ .text.USART_SendData
+                0x00000000        0x8 ./src_standart/stm32f4xx_usart.o
+ .text.USART_ReceiveData
+                0x00000000        0x8 ./src_standart/stm32f4xx_usart.o
+ .text.USART_SetAddress
+                0x00000000       0x16 ./src_standart/stm32f4xx_usart.o
+ .text.USART_ReceiverWakeUpCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_usart.o
+ .text.USART_WakeUpConfig
+                0x00000000       0x16 ./src_standart/stm32f4xx_usart.o
+ .text.USART_LINBreakDetectLengthConfig
+                0x00000000       0x16 ./src_standart/stm32f4xx_usart.o
+ .text.USART_LINCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_usart.o
+ .text.USART_SendBreak
+                0x00000000        0xc ./src_standart/stm32f4xx_usart.o
+ .text.USART_HalfDuplexCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_usart.o
+ .text.USART_SetGuardTime
+                0x00000000       0x12 ./src_standart/stm32f4xx_usart.o
+ .text.USART_SmartCardCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_usart.o
+ .text.USART_SmartCardNACKCmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_usart.o
+ .text.USART_IrDAConfig
+                0x00000000       0x16 ./src_standart/stm32f4xx_usart.o
+ .text.USART_IrDACmd
+                0x00000000       0x18 ./src_standart/stm32f4xx_usart.o
+ .text.USART_DMACmd
+                0x00000000       0x12 ./src_standart/stm32f4xx_usart.o
+ .text.USART_ITConfig
+                0x00000000       0x30 ./src_standart/stm32f4xx_usart.o
+ .text.USART_GetFlagStatus
+                0x00000000        0xc ./src_standart/stm32f4xx_usart.o
+ .text.USART_ClearFlag
+                0x00000000        0x8 ./src_standart/stm32f4xx_usart.o
+ .text.USART_GetITStatus
+                0x00000000       0x40 ./src_standart/stm32f4xx_usart.o
+ .text.USART_ClearITPendingBit
+                0x00000000        0xe ./src_standart/stm32f4xx_usart.o
+ .debug_info    0x00000000      0xace ./src_standart/stm32f4xx_usart.o
+ .debug_abbrev  0x00000000      0x1eb ./src_standart/stm32f4xx_usart.o
+ .debug_loc     0x00000000      0x642 ./src_standart/stm32f4xx_usart.o
+ .debug_aranges
+                0x00000000      0x100 ./src_standart/stm32f4xx_usart.o
+ .debug_ranges  0x00000000       0xf0 ./src_standart/stm32f4xx_usart.o
+ .debug_line    0x00000000      0x59e ./src_standart/stm32f4xx_usart.o
+ .debug_str     0x00000000      0x74b ./src_standart/stm32f4xx_usart.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_usart.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_usart.o
+ .debug_frame   0x00000000      0x20c ./src_standart/stm32f4xx_usart.o
+ .text          0x00000000        0x0 ./src_standart/stm32f4xx_wwdg.o
+ .data          0x00000000        0x0 ./src_standart/stm32f4xx_wwdg.o
+ .bss           0x00000000        0x0 ./src_standart/stm32f4xx_wwdg.o
+ .text.WWDG_DeInit
+                0x00000000       0x1a ./src_standart/stm32f4xx_wwdg.o
+ .text.WWDG_SetPrescaler
+                0x00000000       0x14 ./src_standart/stm32f4xx_wwdg.o
+ .text.WWDG_SetWindowValue
+                0x00000000       0x28 ./src_standart/stm32f4xx_wwdg.o
+ .text.WWDG_EnableIT
+                0x00000000        0xc ./src_standart/stm32f4xx_wwdg.o
+ .text.WWDG_SetCounter
+                0x00000000       0x10 ./src_standart/stm32f4xx_wwdg.o
+ .text.WWDG_Enable
+                0x00000000       0x10 ./src_standart/stm32f4xx_wwdg.o
+ .text.WWDG_GetFlagStatus
+                0x00000000       0x10 ./src_standart/stm32f4xx_wwdg.o
+ .text.WWDG_ClearFlag
+                0x00000000        0xc ./src_standart/stm32f4xx_wwdg.o
+ .debug_info    0x00000000      0x29e ./src_standart/stm32f4xx_wwdg.o
+ .debug_abbrev  0x00000000      0x176 ./src_standart/stm32f4xx_wwdg.o
+ .debug_loc     0x00000000       0xd1 ./src_standart/stm32f4xx_wwdg.o
+ .debug_aranges
+                0x00000000       0x58 ./src_standart/stm32f4xx_wwdg.o
+ .debug_ranges  0x00000000       0x48 ./src_standart/stm32f4xx_wwdg.o
+ .debug_line    0x00000000      0x346 ./src_standart/stm32f4xx_wwdg.o
+ .debug_str     0x00000000      0x31a ./src_standart/stm32f4xx_wwdg.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_wwdg.o
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/stm32f4xx_wwdg.o
+ .debug_frame   0x00000000       0x9c ./src_standart/stm32f4xx_wwdg.o
+ .text          0x00000000        0x0 ./src_USB_OTG/usb_core.o
+ .data          0x00000000        0x0 ./src_USB_OTG/usb_core.o
+ .bss           0x00000000        0x0 ./src_USB_OTG/usb_core.o
+ .text.USB_OTG_GetMode
+                0x00000000        0xa ./src_USB_OTG/usb_core.o
+ .text.USB_OTG_IsHostMode
+                0x00000000        0xa ./src_USB_OTG/usb_core.o
+ .text.USB_OTG_ReadOtgItr
+                0x00000000        0x6 ./src_USB_OTG/usb_core.o
+ .text.USB_OTG_ActiveRemoteWakeup
+                0x00000000       0x42 ./src_USB_OTG/usb_core.o
+ .text.USB_OTG_StopDevice
+                0x00000000       0x48 ./src_USB_OTG/usb_core.o
+ .text.USB_OTG_GetEPStatus
+                0x00000000       0x42 ./src_USB_OTG/usb_core.o
+ .text.USB_OTG_SetEPStatus
+                0x00000000       0x6e ./src_USB_OTG/usb_core.o
+ .text          0x00000000        0x0 ./src_USB_OTG/usb_dcd.o
+ .data          0x00000000        0x0 ./src_USB_OTG/usb_dcd.o
+ .bss           0x00000000        0x0 ./src_USB_OTG/usb_dcd.o
+ .text.DCD_EP_Flush
+                0x00000000       0x18 ./src_USB_OTG/usb_dcd.o
+ .text.DCD_DevConnect
+                0x00000000       0x10 ./src_USB_OTG/usb_dcd.o
+ .text.DCD_DevDisconnect
+                0x00000000       0x10 ./src_USB_OTG/usb_dcd.o
+ .text.DCD_GetEPStatus
+                0x00000000       0x24 ./src_USB_OTG/usb_dcd.o
+ .text.DCD_SetEPStatus
+                0x00000000       0x24 ./src_USB_OTG/usb_dcd.o
+ .text          0x00000000        0x0 ./src_USB_OTG/usb_dcd_int.o
+ .data          0x00000000        0x0 ./src_USB_OTG/usb_dcd_int.o
+ .bss           0x00000000        0x0 ./src_USB_OTG/usb_dcd_int.o
+ .text          0x00000000        0x0 ./src_CDC/usbd_cdc_core.o
+ .data          0x00000000        0x0 ./src_CDC/usbd_cdc_core.o
+ .bss           0x00000000        0x0 ./src_CDC/usbd_cdc_core.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .text.ADC_Read
+                0x00000000       0x24 ./src/main.o
+ .text          0x00000000       0x14 ./src/startup_stm32f4xx.o
+ .data          0x00000000        0x0 ./src/startup_stm32f4xx.o
+ .bss           0x00000000        0x0 ./src/startup_stm32f4xx.o
+ .text          0x00000000        0x0 ./src/stm32f4xx_it.o
+ .data          0x00000000        0x0 ./src/stm32f4xx_it.o
+ .bss           0x00000000        0x0 ./src/stm32f4xx_it.o
+ .text          0x00000000        0x0 ./src/system_stm32f4xx.o
+ .data          0x00000000        0x0 ./src/system_stm32f4xx.o
+ .bss           0x00000000        0x0 ./src/system_stm32f4xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x74 ./src/system_stm32f4xx.o
+ .data.AHBPrescTable
+                0x00000000       0x10 ./src/system_stm32f4xx.o
+ .text          0x00000000        0x0 ./src/usb_bsp.o
+ .data          0x00000000        0x0 ./src/usb_bsp.o
+ .bss           0x00000000        0x0 ./src/usb_bsp.o
+ .text          0x00000000        0x0 ./src/usbd_cdc.o
+ .data          0x00000000        0x0 ./src/usbd_cdc.o
+ .bss           0x00000000        0x0 ./src/usbd_cdc.o
+ .text          0x00000000        0x0 ./src/usbd_desc.o
+ .data          0x00000000        0x0 ./src/usbd_desc.o
+ .bss           0x00000000        0x0 ./src/usbd_desc.o
+ .data.USBD_DeviceQualifierDesc
+                0x00000000        0xa ./src/usbd_desc.o
+ .text          0x00000000        0x0 ./src/usbd_usr.o
+ .data          0x00000000        0x0 ./src/usbd_usr.o
+ .bss           0x00000000        0x0 ./src/usbd_usr.o
+ .text          0x00000000        0x0 ./sec_USBD/usbd_core.o
+ .data          0x00000000        0x0 ./sec_USBD/usbd_core.o
+ .bss           0x00000000        0x0 ./sec_USBD/usbd_core.o
+ .text.USBD_DeInit
+                0x00000000        0x4 ./sec_USBD/usbd_core.o
+ .text          0x00000000        0x0 ./sec_USBD/usbd_ioreq.o
+ .data          0x00000000        0x0 ./sec_USBD/usbd_ioreq.o
+ .bss           0x00000000        0x0 ./sec_USBD/usbd_ioreq.o
+ .text.USBD_GetRxCount
+                0x00000000        0xc ./sec_USBD/usbd_ioreq.o
+ .text          0x00000000        0x0 ./sec_USBD/usbd_req.o
+ .data          0x00000000        0x0 ./sec_USBD/usbd_req.o
+ .bss           0x00000000        0x0 ./sec_USBD/usbd_req.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00100000         xr
+RAM              0x20000000         0x00030000         xrw
+MEMORY_B1        0x60000000         0x00000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src_standart/misc.o
+LOAD ./src_standart/stm32f4xx_adc.o
+LOAD ./src_standart/stm32f4xx_can.o
+LOAD ./src_standart/stm32f4xx_crc.o
+LOAD ./src_standart/stm32f4xx_cryp.o
+LOAD ./src_standart/stm32f4xx_cryp_aes.o
+LOAD ./src_standart/stm32f4xx_cryp_des.o
+LOAD ./src_standart/stm32f4xx_cryp_tdes.o
+LOAD ./src_standart/stm32f4xx_dac.o
+LOAD ./src_standart/stm32f4xx_dbgmcu.o
+LOAD ./src_standart/stm32f4xx_dcmi.o
+LOAD ./src_standart/stm32f4xx_dma.o
+LOAD ./src_standart/stm32f4xx_exti.o
+LOAD ./src_standart/stm32f4xx_flash.o
+LOAD ./src_standart/stm32f4xx_fsmc.o
+LOAD ./src_standart/stm32f4xx_gpio.o
+LOAD ./src_standart/stm32f4xx_hash.o
+LOAD ./src_standart/stm32f4xx_hash_md5.o
+LOAD ./src_standart/stm32f4xx_hash_sha1.o
+LOAD ./src_standart/stm32f4xx_i2c.o
+LOAD ./src_standart/stm32f4xx_iwdg.o
+LOAD ./src_standart/stm32f4xx_pwr.o
+LOAD ./src_standart/stm32f4xx_rcc.o
+LOAD ./src_standart/stm32f4xx_rng.o
+LOAD ./src_standart/stm32f4xx_rtc.o
+LOAD ./src_standart/stm32f4xx_sdio.o
+LOAD ./src_standart/stm32f4xx_spi.o
+LOAD ./src_standart/stm32f4xx_syscfg.o
+LOAD ./src_standart/stm32f4xx_tim.o
+LOAD ./src_standart/stm32f4xx_usart.o
+LOAD ./src_standart/stm32f4xx_wwdg.o
+LOAD ./src_USB_OTG/usb_core.o
+LOAD ./src_USB_OTG/usb_dcd.o
+LOAD ./src_USB_OTG/usb_dcd_int.o
+LOAD ./src_CDC/usbd_cdc_core.o
+LOAD ./src/main.o
+LOAD ./src/startup_stm32f4xx.o
+LOAD ./src/stm32f4xx_it.o
+LOAD ./src/system_stm32f4xx.o
+LOAD ./src/usb_bsp.o
+LOAD ./src/usbd_cdc.o
+LOAD ./src/usbd_desc.o
+LOAD ./src/usbd_usr.o
+LOAD ./sec_USBD/usbd_core.o
+LOAD ./sec_USBD/usbd_ioreq.o
+LOAD ./sec_USBD/usbd_req.o
+LOAD d:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libstdc++_s.a
+LOAD d:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libm.a
+START GROUP
+LOAD d:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a
+LOAD d:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a
+LOAD d:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libc_s.a
+END GROUP
+START GROUP
+LOAD d:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a
+LOAD d:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libc_s.a
+END GROUP
+                0x20020000                _estack = 0x20020000
+                0x00000000                _Min_Heap_Size = 0x0
+                0x00000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x188
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 ./src/startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+                0x08000188                . = ALIGN (0x4)
+
+.text           0x08000188     0x28fc
+                0x08000188                . = ALIGN (0x4)
+ *(.text)
+ *(.text*)
+ .text.NVIC_PriorityGroupConfig
+                0x08000188       0x14 ./src_standart/misc.o
+                0x08000188                NVIC_PriorityGroupConfig
+ .text.NVIC_Init
+                0x0800019c       0x6c ./src_standart/misc.o
+                0x0800019c                NVIC_Init
+ .text.ADC_DeInit
+                0x08000208       0x1a ./src_standart/stm32f4xx_adc.o
+                0x08000208                ADC_DeInit
+ *fill*         0x08000222        0x2 
+ .text.ADC_Init
+                0x08000224       0x4c ./src_standart/stm32f4xx_adc.o
+                0x08000224                ADC_Init
+ .text.ADC_CommonInit
+                0x08000270       0x28 ./src_standart/stm32f4xx_adc.o
+                0x08000270                ADC_CommonInit
+ .text.ADC_Cmd  0x08000298       0x12 ./src_standart/stm32f4xx_adc.o
+                0x08000298                ADC_Cmd
+ .text.ADC_RegularChannelConfig
+                0x080002aa       0x90 ./src_standart/stm32f4xx_adc.o
+                0x080002aa                ADC_RegularChannelConfig
+ .text.ADC_SoftwareStartConv
+                0x0800033a        0xa ./src_standart/stm32f4xx_adc.o
+                0x0800033a                ADC_SoftwareStartConv
+ .text.ADC_DMACmd
+                0x08000344       0x12 ./src_standart/stm32f4xx_adc.o
+                0x08000344                ADC_DMACmd
+ *fill*         0x08000356        0x2 
+ .text.ADC_MultiModeDMARequestAfterLastTransferCmd
+                0x08000358       0x18 ./src_standart/stm32f4xx_adc.o
+                0x08000358                ADC_MultiModeDMARequestAfterLastTransferCmd
+ .text.DMA_DeInit
+                0x08000370      0x10c ./src_standart/stm32f4xx_dma.o
+                0x08000370                DMA_DeInit
+ .text.DMA_Init
+                0x0800047c       0x54 ./src_standart/stm32f4xx_dma.o
+                0x0800047c                DMA_Init
+ .text.DMA_Cmd  0x080004d0       0x12 ./src_standart/stm32f4xx_dma.o
+                0x080004d0                DMA_Cmd
+ .text.DMA_ITConfig
+                0x080004e2       0x3e ./src_standart/stm32f4xx_dma.o
+                0x080004e2                DMA_ITConfig
+ .text.DMA_GetITStatus
+                0x08000520       0x50 ./src_standart/stm32f4xx_dma.o
+                0x08000520                DMA_GetITStatus
+ .text.DMA_ClearITPendingBit
+                0x08000570       0x30 ./src_standart/stm32f4xx_dma.o
+                0x08000570                DMA_ClearITPendingBit
+ .text.EXTI_ClearITPendingBit
+                0x080005a0        0xc ./src_standart/stm32f4xx_exti.o
+                0x080005a0                EXTI_ClearITPendingBit
+ .text.GPIO_DeInit
+                0x080005ac       0xd8 ./src_standart/stm32f4xx_gpio.o
+                0x080005ac                GPIO_DeInit
+ .text.GPIO_Init
+                0x08000684       0x80 ./src_standart/stm32f4xx_gpio.o
+                0x08000684                GPIO_Init
+ .text.GPIO_StructInit
+                0x08000704       0x12 ./src_standart/stm32f4xx_gpio.o
+                0x08000704                GPIO_StructInit
+ .text.GPIO_SetBits
+                0x08000716        0x4 ./src_standart/stm32f4xx_gpio.o
+                0x08000716                GPIO_SetBits
+ .text.GPIO_ResetBits
+                0x0800071a        0x4 ./src_standart/stm32f4xx_gpio.o
+                0x0800071a                GPIO_ResetBits
+ .text.GPIO_PinAFConfig
+                0x0800071e       0x24 ./src_standart/stm32f4xx_gpio.o
+                0x0800071e                GPIO_PinAFConfig
+ *fill*         0x08000742        0x2 
+ .text.RCC_AHB1PeriphClockCmd
+                0x08000744       0x18 ./src_standart/stm32f4xx_rcc.o
+                0x08000744                RCC_AHB1PeriphClockCmd
+ .text.RCC_AHB2PeriphClockCmd
+                0x0800075c       0x18 ./src_standart/stm32f4xx_rcc.o
+                0x0800075c                RCC_AHB2PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x08000774       0x18 ./src_standart/stm32f4xx_rcc.o
+                0x08000774                RCC_APB1PeriphClockCmd
+ .text.RCC_APB2PeriphClockCmd
+                0x0800078c       0x18 ./src_standart/stm32f4xx_rcc.o
+                0x0800078c                RCC_APB2PeriphClockCmd
+ .text.RCC_AHB1PeriphResetCmd
+                0x080007a4       0x18 ./src_standart/stm32f4xx_rcc.o
+                0x080007a4                RCC_AHB1PeriphResetCmd
+ .text.RCC_APB1PeriphResetCmd
+                0x080007bc       0x18 ./src_standart/stm32f4xx_rcc.o
+                0x080007bc                RCC_APB1PeriphResetCmd
+ .text.RCC_APB2PeriphResetCmd
+                0x080007d4       0x18 ./src_standart/stm32f4xx_rcc.o
+                0x080007d4                RCC_APB2PeriphResetCmd
+ .text.TIM_TimeBaseInit
+                0x080007ec       0x7c ./src_standart/stm32f4xx_tim.o
+                0x080007ec                TIM_TimeBaseInit
+ .text.TIM_TimeBaseStructInit
+                0x08000868       0x12 ./src_standart/stm32f4xx_tim.o
+                0x08000868                TIM_TimeBaseStructInit
+ .text.TIM_Cmd  0x0800087a       0x18 ./src_standart/stm32f4xx_tim.o
+                0x0800087a                TIM_Cmd
+ .text.TIM_ITConfig
+                0x08000892       0x12 ./src_standart/stm32f4xx_tim.o
+                0x08000892                TIM_ITConfig
+ .text.TIM_GetITStatus
+                0x080008a4       0x16 ./src_standart/stm32f4xx_tim.o
+                0x080008a4                TIM_GetITStatus
+ .text.TIM_ClearITPendingBit
+                0x080008ba        0x8 ./src_standart/stm32f4xx_tim.o
+                0x080008ba                TIM_ClearITPendingBit
+ .text.TIM_SelectOutputTrigger
+                0x080008c2       0x16 ./src_standart/stm32f4xx_tim.o
+                0x080008c2                TIM_SelectOutputTrigger
+ .text.USB_OTG_CoreReset.isra.1
+                0x080008d8       0x4c ./src_USB_OTG/usb_core.o
+ .text.USB_OTG_WritePacket
+                0x08000924       0x26 ./src_USB_OTG/usb_core.o
+                0x08000924                USB_OTG_WritePacket
+ .text.USB_OTG_ReadPacket
+                0x0800094a       0x22 ./src_USB_OTG/usb_core.o
+                0x0800094a                USB_OTG_ReadPacket
+ .text.USB_OTG_SelectCore
+                0x0800096c       0xd0 ./src_USB_OTG/usb_core.o
+                0x0800096c                USB_OTG_SelectCore
+ .text.USB_OTG_CoreInit
+                0x08000a3c       0xe4 ./src_USB_OTG/usb_core.o
+                0x08000a3c                USB_OTG_CoreInit
+ .text.USB_OTG_EnableGlobalInt
+                0x08000b20        0xe ./src_USB_OTG/usb_core.o
+                0x08000b20                USB_OTG_EnableGlobalInt
+ .text.USB_OTG_DisableGlobalInt
+                0x08000b2e        0xe ./src_USB_OTG/usb_core.o
+                0x08000b2e                USB_OTG_DisableGlobalInt
+ .text.USB_OTG_FlushTxFifo
+                0x08000b3c       0x40 ./src_USB_OTG/usb_core.o
+                0x08000b3c                USB_OTG_FlushTxFifo
+ .text.USB_OTG_FlushRxFifo
+                0x08000b7c       0x38 ./src_USB_OTG/usb_core.o
+                0x08000b7c                USB_OTG_FlushRxFifo
+ .text.USB_OTG_SetCurrentMode
+                0x08000bb4       0x2a ./src_USB_OTG/usb_core.o
+                0x08000bb4                USB_OTG_SetCurrentMode
+ .text.USB_OTG_IsDeviceMode
+                0x08000bde        0xe ./src_USB_OTG/usb_core.o
+                0x08000bde                USB_OTG_IsDeviceMode
+ .text.USB_OTG_ReadCoreItr
+                0x08000bec        0xa ./src_USB_OTG/usb_core.o
+                0x08000bec                USB_OTG_ReadCoreItr
+ .text.USB_OTG_InitDevSpeed
+                0x08000bf6        0xc ./src_USB_OTG/usb_core.o
+                0x08000bf6                USB_OTG_InitDevSpeed
+ *fill*         0x08000c02        0x2 
+ .text.USB_OTG_EnableDevInt
+                0x08000c04       0x38 ./src_USB_OTG/usb_core.o
+                0x08000c04                USB_OTG_EnableDevInt
+ .text.USB_OTG_CoreInitDev
+                0x08000c3c       0xec ./src_USB_OTG/usb_core.o
+                0x08000c3c                USB_OTG_CoreInitDev
+ .text.USB_OTG_GetDeviceSpeed
+                0x08000d28       0x20 ./src_USB_OTG/usb_core.o
+                0x08000d28                USB_OTG_GetDeviceSpeed
+ .text.USB_OTG_EP0Activate
+                0x08000d48       0x2a ./src_USB_OTG/usb_core.o
+                0x08000d48                USB_OTG_EP0Activate
+ .text.USB_OTG_EPActivate
+                0x08000d72       0x58 ./src_USB_OTG/usb_core.o
+                0x08000d72                USB_OTG_EPActivate
+ .text.USB_OTG_EPDeactivate
+                0x08000dca       0x3e ./src_USB_OTG/usb_core.o
+                0x08000dca                USB_OTG_EPDeactivate
+ .text.USB_OTG_EPStartXfer
+                0x08000e08      0x104 ./src_USB_OTG/usb_core.o
+                0x08000e08                USB_OTG_EPStartXfer
+ .text.USB_OTG_EP0StartXfer
+                0x08000f0c       0xf8 ./src_USB_OTG/usb_core.o
+                0x08000f0c                USB_OTG_EP0StartXfer
+ .text.USB_OTG_EPSetStall
+                0x08001004       0x28 ./src_USB_OTG/usb_core.o
+                0x08001004                USB_OTG_EPSetStall
+ .text.USB_OTG_EPClearStall
+                0x0800102c       0x2a ./src_USB_OTG/usb_core.o
+                0x0800102c                USB_OTG_EPClearStall
+ .text.USB_OTG_ReadDevAllOutEp_itr
+                0x08001056        0xc ./src_USB_OTG/usb_core.o
+                0x08001056                USB_OTG_ReadDevAllOutEp_itr
+ .text.USB_OTG_ReadDevOutEP_itr
+                0x08001062       0x10 ./src_USB_OTG/usb_core.o
+                0x08001062                USB_OTG_ReadDevOutEP_itr
+ .text.USB_OTG_ReadDevAllInEPItr
+                0x08001072        0xc ./src_USB_OTG/usb_core.o
+                0x08001072                USB_OTG_ReadDevAllInEPItr
+ .text.USB_OTG_EP0_OutStart
+                0x0800107e       0x3e ./src_USB_OTG/usb_core.o
+                0x0800107e                USB_OTG_EP0_OutStart
+ .text.USB_OTG_UngateClock
+                0x080010bc       0x20 ./src_USB_OTG/usb_core.o
+                0x080010bc                USB_OTG_UngateClock
+ .text.DCD_Init
+                0x080010dc       0x9c ./src_USB_OTG/usb_dcd.o
+                0x080010dc                DCD_Init
+ .text.DCD_EP_Open
+                0x08001178       0x42 ./src_USB_OTG/usb_dcd.o
+                0x08001178                DCD_EP_Open
+ .text.DCD_EP_Close
+                0x080011ba       0x30 ./src_USB_OTG/usb_dcd.o
+                0x080011ba                DCD_EP_Close
+ .text.DCD_EP_PrepareRx
+                0x080011ea       0x34 ./src_USB_OTG/usb_dcd.o
+                0x080011ea                DCD_EP_PrepareRx
+ .text.DCD_EP_Tx
+                0x0800121e       0x30 ./src_USB_OTG/usb_dcd.o
+                0x0800121e                DCD_EP_Tx
+ .text.DCD_EP_Stall
+                0x0800124e       0x34 ./src_USB_OTG/usb_dcd.o
+                0x0800124e                DCD_EP_Stall
+ .text.DCD_EP_ClrStall
+                0x08001282       0x34 ./src_USB_OTG/usb_dcd.o
+                0x08001282                DCD_EP_ClrStall
+ .text.DCD_EP_SetAddress
+                0x080012b6       0x10 ./src_USB_OTG/usb_dcd.o
+                0x080012b6                DCD_EP_SetAddress
+ *fill*         0x080012c6        0x2 
+ .text.USBD_OTG_ISR_Handler
+                0x080012c8      0x42c ./src_USB_OTG/usb_dcd_int.o
+                0x080012c8                USBD_OTG_ISR_Handler
+ .text.usbd_cdc_EP0_RxReady
+                0x080016f4       0x30 ./src_CDC/usbd_cdc_core.o
+ .text.USBD_cdc_GetCfgDesc
+                0x08001724        0xc ./src_CDC/usbd_cdc_core.o
+ .text.usbd_cdc_SOF
+                0x08001730       0x98 ./src_CDC/usbd_cdc_core.o
+ .text.usbd_cdc_DataOut
+                0x080017c8       0x38 ./src_CDC/usbd_cdc_core.o
+ .text.usbd_cdc_Setup
+                0x08001800       0xb8 ./src_CDC/usbd_cdc_core.o
+ .text.usbd_cdc_DeInit
+                0x080018b8       0x28 ./src_CDC/usbd_cdc_core.o
+ .text.usbd_cdc_Init
+                0x080018e0       0x64 ./src_CDC/usbd_cdc_core.o
+ .text.usbd_cdc_DataIn
+                0x08001944       0x58 ./src_CDC/usbd_cdc_core.o
+ .text.Delay.constprop.0
+                0x0800199c        0xe ./src/main.o
+ *fill*         0x080019aa        0x2 
+ .text.GPIO_Config
+                0x080019ac       0xa8 ./src/main.o
+                0x080019ac                GPIO_Config
+ .text.TIM2_Config
+                0x08001a54       0x40 ./src/main.o
+                0x08001a54                TIM2_Config
+ .text.DMA2_Stream0_IRQHandler
+                0x08001a94      0x1dc ./src/main.o
+                0x08001a94                DMA2_Stream0_IRQHandler
+ .text.TIM2_IRQHandler
+                0x08001c70       0x1e ./src/main.o
+                0x08001c70                TIM2_IRQHandler
+ *fill*         0x08001c8e        0x2 
+ .text.startup.main
+                0x08001c90      0x2f0 ./src/main.o
+                0x08001c90                main
+ .text.Reset_Handler
+                0x08001f80       0x4c ./src/startup_stm32f4xx.o
+                0x08001f80                Reset_Handler
+ .text.Default_Handler
+                0x08001fcc        0x4 ./src/startup_stm32f4xx.o
+                0x08001fcc                RTC_Alarm_IRQHandler
+                0x08001fcc                HASH_RNG_IRQHandler
+                0x08001fcc                EXTI2_IRQHandler
+                0x08001fcc                TIM8_CC_IRQHandler
+                0x08001fcc                TIM1_CC_IRQHandler
+                0x08001fcc                DMA2_Stream5_IRQHandler
+                0x08001fcc                DMA1_Stream5_IRQHandler
+                0x08001fcc                PVD_IRQHandler
+                0x08001fcc                SDIO_IRQHandler
+                0x08001fcc                TAMP_STAMP_IRQHandler
+                0x08001fcc                CAN2_RX1_IRQHandler
+                0x08001fcc                EXTI3_IRQHandler
+                0x08001fcc                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08001fcc                TIM1_UP_TIM10_IRQHandler
+                0x08001fcc                TIM8_UP_TIM13_IRQHandler
+                0x08001fcc                I2C3_ER_IRQHandler
+                0x08001fcc                I2C2_EV_IRQHandler
+                0x08001fcc                DMA1_Stream2_IRQHandler
+                0x08001fcc                CAN1_RX0_IRQHandler
+                0x08001fcc                FPU_IRQHandler
+                0x08001fcc                OTG_HS_WKUP_IRQHandler
+                0x08001fcc                CAN2_SCE_IRQHandler
+                0x08001fcc                DMA2_Stream2_IRQHandler
+                0x08001fcc                SPI1_IRQHandler
+                0x08001fcc                TIM6_DAC_IRQHandler
+                0x08001fcc                TIM1_BRK_TIM9_IRQHandler
+                0x08001fcc                DCMI_IRQHandler
+                0x08001fcc                CAN2_RX0_IRQHandler
+                0x08001fcc                DMA2_Stream3_IRQHandler
+                0x08001fcc                USART6_IRQHandler
+                0x08001fcc                USART3_IRQHandler
+                0x08001fcc                CRYP_IRQHandler
+                0x08001fcc                CAN1_RX1_IRQHandler
+                0x08001fcc                UART5_IRQHandler
+                0x08001fcc                TIM4_IRQHandler
+                0x08001fcc                I2C1_EV_IRQHandler
+                0x08001fcc                DMA1_Stream6_IRQHandler
+                0x08001fcc                DMA1_Stream1_IRQHandler
+                0x08001fcc                UART4_IRQHandler
+                0x08001fcc                TIM3_IRQHandler
+                0x08001fcc                RCC_IRQHandler
+                0x08001fcc                TIM8_BRK_TIM12_IRQHandler
+                0x08001fcc                Default_Handler
+                0x08001fcc                EXTI15_10_IRQHandler
+                0x08001fcc                ADC_IRQHandler
+                0x08001fcc                DMA1_Stream7_IRQHandler
+                0x08001fcc                TIM7_IRQHandler
+                0x08001fcc                CAN2_TX_IRQHandler
+                0x08001fcc                TIM5_IRQHandler
+                0x08001fcc                DMA2_Stream7_IRQHandler
+                0x08001fcc                I2C3_EV_IRQHandler
+                0x08001fcc                EXTI9_5_IRQHandler
+                0x08001fcc                RTC_WKUP_IRQHandler
+                0x08001fcc                ETH_WKUP_IRQHandler
+                0x08001fcc                SPI2_IRQHandler
+                0x08001fcc                OTG_HS_EP1_IN_IRQHandler
+                0x08001fcc                DMA1_Stream0_IRQHandler
+                0x08001fcc                CAN1_TX_IRQHandler
+                0x08001fcc                EXTI4_IRQHandler
+                0x08001fcc                FSMC_IRQHandler
+                0x08001fcc                ETH_IRQHandler
+                0x08001fcc                OTG_HS_EP1_OUT_IRQHandler
+                0x08001fcc                WWDG_IRQHandler
+                0x08001fcc                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08001fcc                OTG_HS_IRQHandler
+                0x08001fcc                EXTI1_IRQHandler
+                0x08001fcc                USART2_IRQHandler
+                0x08001fcc                I2C2_ER_IRQHandler
+                0x08001fcc                DMA2_Stream1_IRQHandler
+                0x08001fcc                CAN1_SCE_IRQHandler
+                0x08001fcc                FLASH_IRQHandler
+                0x08001fcc                DMA2_Stream4_IRQHandler
+                0x08001fcc                USART1_IRQHandler
+                0x08001fcc                SPI3_IRQHandler
+                0x08001fcc                DMA1_Stream4_IRQHandler
+                0x08001fcc                I2C1_ER_IRQHandler
+                0x08001fcc                DMA2_Stream6_IRQHandler
+                0x08001fcc                DMA1_Stream3_IRQHandler
+ .text.NMI_Handler
+                0x08001fd0        0x2 ./src/stm32f4xx_it.o
+                0x08001fd0                NMI_Handler
+ .text.HardFault_Handler
+                0x08001fd2        0x2 ./src/stm32f4xx_it.o
+                0x08001fd2                HardFault_Handler
+ .text.MemManage_Handler
+                0x08001fd4        0x2 ./src/stm32f4xx_it.o
+                0x08001fd4                MemManage_Handler
+ .text.BusFault_Handler
+                0x08001fd6        0x2 ./src/stm32f4xx_it.o
+                0x08001fd6                BusFault_Handler
+ .text.UsageFault_Handler
+                0x08001fd8        0x2 ./src/stm32f4xx_it.o
+                0x08001fd8                UsageFault_Handler
+ .text.DebugMon_Handler
+                0x08001fda        0x2 ./src/stm32f4xx_it.o
+                0x08001fda                DebugMon_Handler
+ .text.SVC_Handler
+                0x08001fdc        0x2 ./src/stm32f4xx_it.o
+                0x08001fdc                SVC_Handler
+ .text.PendSV_Handler
+                0x08001fde        0x2 ./src/stm32f4xx_it.o
+                0x08001fde                PendSV_Handler
+ .text.SysTick_Handler
+                0x08001fe0        0x2 ./src/stm32f4xx_it.o
+                0x08001fe0                SysTick_Handler
+ .text.EXTI0_IRQHandler
+                0x08001fe2       0x10 ./src/stm32f4xx_it.o
+                0x08001fe2                EXTI0_IRQHandler
+ *fill*         0x08001ff2        0x2 
+ .text.OTG_FS_WKUP_IRQHandler
+                0x08001ff4       0x30 ./src/stm32f4xx_it.o
+                0x08001ff4                OTG_FS_WKUP_IRQHandler
+ .text.OTG_FS_IRQHandler
+                0x08002024        0xc ./src/stm32f4xx_it.o
+                0x08002024                OTG_FS_IRQHandler
+ .text.SystemInit
+                0x08002030       0xec ./src/system_stm32f4xx.o
+                0x08002030                SystemInit
+ .text.USB_OTG_BSP_Init
+                0x0800211c       0xa0 ./src/usb_bsp.o
+                0x0800211c                USB_OTG_BSP_Init
+ .text.USB_OTG_BSP_EnableInterrupt
+                0x080021bc       0x2c ./src/usb_bsp.o
+                0x080021bc                USB_OTG_BSP_EnableInterrupt
+ .text.USB_OTG_BSP_uDelay
+                0x080021e8       0x14 ./src/usb_bsp.o
+                0x080021e8                USB_OTG_BSP_uDelay
+ .text.USB_OTG_BSP_mDelay
+                0x080021fc        0xa ./src/usb_bsp.o
+                0x080021fc                USB_OTG_BSP_mDelay
+ .text.cdc_Init
+                0x08002206        0x4 ./src/usbd_cdc.o
+ .text.cdc_DeInit
+                0x0800220a        0x4 ./src/usbd_cdc.o
+ .text.cdc_Ctrl
+                0x0800220e        0x4 ./src/usbd_cdc.o
+ *fill*         0x08002212        0x2 
+ .text.cdc_DataTx
+                0x08002214       0x30 ./src/usbd_cdc.o
+                0x08002214                cdc_DataTx
+ .text.cdc_DataRx
+                0x08002244       0x1c ./src/usbd_cdc.o
+ .text.DISCOVERY_EXTI_IRQHandler
+                0x08002260        0xc ./src/usbd_cdc.o
+                0x08002260                DISCOVERY_EXTI_IRQHandler
+ .text.USBD_USR_DeviceDescriptor
+                0x0800226c        0xc ./src/usbd_desc.o
+                0x0800226c                USBD_USR_DeviceDescriptor
+ .text.USBD_USR_LangIDStrDescriptor
+                0x08002278        0xc ./src/usbd_desc.o
+                0x08002278                USBD_USR_LangIDStrDescriptor
+ .text.USBD_USR_ManufacturerStrDescriptor
+                0x08002284       0x1c ./src/usbd_desc.o
+                0x08002284                USBD_USR_ManufacturerStrDescriptor
+ .text.USBD_USR_ProductStrDescriptor
+                0x080022a0       0x24 ./src/usbd_desc.o
+                0x080022a0                USBD_USR_ProductStrDescriptor
+ .text.USBD_USR_SerialStrDescriptor
+                0x080022c4       0x24 ./src/usbd_desc.o
+                0x080022c4                USBD_USR_SerialStrDescriptor
+ .text.USBD_USR_ConfigStrDescriptor
+                0x080022e8       0x1c ./src/usbd_desc.o
+                0x080022e8                USBD_USR_ConfigStrDescriptor
+ .text.USBD_USR_InterfaceStrDescriptor
+                0x08002304       0x1c ./src/usbd_desc.o
+                0x08002304                USBD_USR_InterfaceStrDescriptor
+ .text.USBD_USR_DeviceReset
+                0x08002320        0x2 ./src/usbd_usr.o
+                0x08002320                USBD_USR_DeviceReset
+ .text.USBD_USR_DeviceConfigured
+                0x08002322        0x2 ./src/usbd_usr.o
+                0x08002322                USBD_USR_DeviceConfigured
+ .text.USBD_USR_DeviceConnected
+                0x08002324        0x2 ./src/usbd_usr.o
+                0x08002324                USBD_USR_DeviceConnected
+ .text.USBD_USR_DeviceDisconnected
+                0x08002326        0x2 ./src/usbd_usr.o
+                0x08002326                USBD_USR_DeviceDisconnected
+ .text.USBD_USR_DeviceSuspended
+                0x08002328        0x2 ./src/usbd_usr.o
+                0x08002328                USBD_USR_DeviceSuspended
+ .text.USBD_USR_DeviceResumed
+                0x0800232a        0x2 ./src/usbd_usr.o
+                0x0800232a                USBD_USR_DeviceResumed
+ .text.USBD_USR_Init
+                0x0800232c       0x38 ./src/usbd_usr.o
+                0x0800232c                USBD_USR_Init
+ .text.USBD_Resume
+                0x08002364       0x16 ./sec_USBD/usbd_core.o
+ .text.USBD_Suspend
+                0x0800237a       0x14 ./sec_USBD/usbd_core.o
+ .text.USBD_SOF
+                0x0800238e       0x10 ./sec_USBD/usbd_core.o
+ .text.USBD_IsoINIncomplete
+                0x0800239e        0xe ./sec_USBD/usbd_core.o
+ .text.USBD_IsoOUTIncomplete
+                0x080023ac        0xe ./sec_USBD/usbd_core.o
+ .text.USBD_Reset
+                0x080023ba       0x2e ./sec_USBD/usbd_core.o
+ .text.USBD_SetupStage
+                0x080023e8       0x4a ./sec_USBD/usbd_core.o
+ .text.USBD_DataInStage
+                0x08002432       0x98 ./sec_USBD/usbd_core.o
+ .text.USBD_DataOutStage
+                0x080024ca       0x74 ./sec_USBD/usbd_core.o
+ .text.USBD_Init
+                0x0800253e       0x38 ./sec_USBD/usbd_core.o
+                0x0800253e                USBD_Init
+ .text.USBD_SetCfg
+                0x08002576       0x18 ./sec_USBD/usbd_core.o
+                0x08002576                USBD_SetCfg
+ .text.USBD_ClrCfg
+                0x0800258e        0xe ./sec_USBD/usbd_core.o
+                0x0800258e                USBD_ClrCfg
+ .text.USBD_CtlSendData
+                0x0800259c       0x22 ./sec_USBD/usbd_ioreq.o
+                0x0800259c                USBD_CtlSendData
+ .text.USBD_CtlContinueSendData
+                0x080025be       0x12 ./sec_USBD/usbd_ioreq.o
+                0x080025be                USBD_CtlContinueSendData
+ .text.USBD_CtlPrepareRx
+                0x080025d0       0x22 ./sec_USBD/usbd_ioreq.o
+                0x080025d0                USBD_CtlPrepareRx
+ .text.USBD_CtlContinueRx
+                0x080025f2       0x12 ./sec_USBD/usbd_ioreq.o
+                0x080025f2                USBD_CtlContinueRx
+ .text.USBD_CtlSendStatus
+                0x08002604       0x1e ./sec_USBD/usbd_ioreq.o
+                0x08002604                USBD_CtlSendStatus
+ .text.USBD_CtlReceiveStatus
+                0x08002622       0x1e ./sec_USBD/usbd_ioreq.o
+                0x08002622                USBD_CtlReceiveStatus
+ .text.USBD_ParseSetupRequest
+                0x08002640       0x44 ./sec_USBD/usbd_req.o
+                0x08002640                USBD_ParseSetupRequest
+ .text.USBD_CtlError
+                0x08002684       0x28 ./sec_USBD/usbd_req.o
+                0x08002684                USBD_CtlError
+ .text.USBD_StdDevReq
+                0x080026ac      0x254 ./sec_USBD/usbd_req.o
+                0x080026ac                USBD_StdDevReq
+ .text.USBD_StdItfReq
+                0x08002900       0x30 ./sec_USBD/usbd_req.o
+                0x08002900                USBD_StdItfReq
+ .text.USBD_StdEPReq
+                0x08002930       0xc0 ./sec_USBD/usbd_req.o
+                0x08002930                USBD_StdEPReq
+ .text.USBD_GetString
+                0x080029f0       0x3c ./sec_USBD/usbd_req.o
+                0x080029f0                USBD_GetString
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x08002a2c       0x57 ./src/usbd_desc.o
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x08002a84                . = ALIGN (0x4)
+ *fill*         0x08002a83        0x1 
+                0x08002a84                _etext = .
+
+.vfp11_veneer   0x08002a84        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08002a84        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08002a84        0x0
+ .iplt          0x00000000        0x0 ./src_standart/misc.o
+
+.rel.dyn        0x08002a84        0x0
+ .rel.iplt      0x00000000        0x0 ./src_standart/misc.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08002a84        0x0
+                0x08002a84                __exidx_start = .
+ *(.ARM.exidx*)
+                0x08002a84                __exidx_end = .
+
+.preinit_array  0x08002a84        0x0
+                0x08002a84                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x08002a84                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x08002a84        0x0
+                0x08002a84                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                0x08002a84                PROVIDE (__init_array_end, .)
+
+.fini_array     0x08002a84        0x0
+                0x08002a84                PROVIDE (__fini_array_start, .)
+ *(.fini_array*)
+ *(SORT(.fini_array.*))
+                0x08002a84                PROVIDE (__fini_array_end, .)
+                0x08002a84                _sidata = .
+
+.data           0x20000000      0x10c load address 0x08002a84
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.USBD_CDC_cb
+                0x20000000       0x2c ./src_CDC/usbd_cdc_core.o
+                0x20000000                USBD_CDC_cb
+ .data.cdcCmd   0x2000002c        0x4 ./src_CDC/usbd_cdc_core.o
+ .data.usbd_cdc_CfgDesc
+                0x20000030       0x43 ./src_CDC/usbd_cdc_core.o
+                0x20000030                usbd_cdc_CfgDesc
+ *fill*         0x20000073        0x1 
+ .data.SystemCoreClock
+                0x20000074        0x4 ./src/system_stm32f4xx.o
+                0x20000074                SystemCoreClock
+ .data.cdc_fops
+                0x20000078       0x14 ./src/usbd_cdc.o
+                0x20000078                cdc_fops
+ .data.USR_desc
+                0x2000008c       0x1c ./src/usbd_desc.o
+                0x2000008c                USR_desc
+ .data.USBD_LangIDDesc
+                0x200000a8        0x4 ./src/usbd_desc.o
+                0x200000a8                USBD_LangIDDesc
+ .data.USBD_DeviceDesc
+                0x200000ac       0x12 ./src/usbd_desc.o
+                0x200000ac                USBD_DeviceDesc
+ *fill*         0x200000be        0x2 
+ .data.USR_cb   0x200000c0       0x1c ./src/usbd_usr.o
+                0x200000c0                USR_cb
+ .data.USBD_DCD_INT_fops
+                0x200000dc        0x4 ./sec_USBD/usbd_core.o
+                0x200000dc                USBD_DCD_INT_fops
+ .data.USBD_DCD_INT_cb
+                0x200000e0       0x2c ./sec_USBD/usbd_core.o
+                0x200000e0                USBD_DCD_INT_cb
+                0x2000010c                . = ALIGN (0x4)
+                0x2000010c                _edata = .
+
+.igot.plt       0x2000010c        0x0 load address 0x08002b90
+ .igot.plt      0x00000000        0x0 ./src_standart/misc.o
+                0x2000010c                . = ALIGN (0x4)
+
+.bss            0x2000010c     0x3fc0 load address 0x08002b90
+                0x2000010c                _sbss = .
+                0x2000010c                __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ .bss.usbd_cdc_AltSet
+                0x2000010c        0x4 ./src_CDC/usbd_cdc_core.o
+ .bss.USB_Tx_State
+                0x20000110        0x1 ./src_CDC/usbd_cdc_core.o
+                0x20000110                USB_Tx_State
+ *fill*         0x20000111        0x3 
+ .bss.cdcLen    0x20000114        0x4 ./src_CDC/usbd_cdc_core.o
+ .bss.APP_Rx_ptr_in
+                0x20000118        0x4 ./src_CDC/usbd_cdc_core.o
+                0x20000118                APP_Rx_ptr_in
+ .bss.APP_Rx_ptr_out
+                0x2000011c        0x4 ./src_CDC/usbd_cdc_core.o
+                0x2000011c                APP_Rx_ptr_out
+ .bss.FrameCount.8401
+                0x20000120        0x4 ./src_CDC/usbd_cdc_core.o
+ .bss.APP_Rx_length
+                0x20000124        0x4 ./src_CDC/usbd_cdc_core.o
+                0x20000124                APP_Rx_length
+ .bss.ind_1     0x20000128        0x2 ./src/main.o
+                0x20000128                ind_1
+ *fill*         0x2000012a        0x2 
+ .bss.USBD_cfg_status
+                0x2000012c        0x4 ./sec_USBD/usbd_req.o
+                0x2000012c                USBD_cfg_status
+ .bss.cfgidx.8407
+                0x20000130        0x1 ./sec_USBD/usbd_req.o
+ *fill*         0x20000131        0x3 
+ .bss.USBD_ep_status
+                0x20000134        0x4 ./sec_USBD/usbd_req.o
+                0x20000134                USBD_ep_status
+ .bss.USBD_default_cfg
+                0x20000138        0x4 ./sec_USBD/usbd_req.o
+                0x20000138                USBD_default_cfg
+ *(COMMON)
+ COMMON         0x2000013c      0x88b ./src_CDC/usbd_cdc_core.o
+                0x2000013c                usbd_cdc_OtherCfgDesc
+                0x2000017f                USB_Rx_Buffer
+                0x200001bf                CmdBuff
+                0x200001c7                APP_Rx_Buffer
+ *fill*         0x200009c7        0x1 
+ COMMON         0x200009c8     0x36c4 ./src/main.o
+                0x200009c8                wBuffer
+                0x20000a08                AN0
+                0x20000a0a                AN4
+                0x20000a0c                vA6
+                0x20000a10                A3
+                0x20001210                vA2
+                0x20001214                AN3
+                0x20001216                A5
+                0x20001a16                AN5
+                0x20001a18                W_BUFFER
+                0x20001a1c                ADCTripleConvertedValue
+                0x20001a30                FreqBase
+                0x20001a34                vA1
+                0x20001a38                A4
+                0x20002238                A2
+                0x20002a38                AN2
+                0x20002a3a                PrescalerValue
+                0x20002a3c                FreqTimer
+                0x20002a40                AN7
+                0x20002a44                USB_OTG_dev
+                0x20003034                R_BUFFER
+                0x20003038                vA3
+                0x2000303c                AN6
+                0x2000303e                AN8
+                0x20003040                rBuffer
+                0x20003080                vA4
+                0x20003084                A1
+                0x20003884                AN1
+                0x20003888                vA5
+                0x2000388c                A6
+ COMMON         0x2000408c       0x40 ./sec_USBD/usbd_req.o
+                0x2000408c                USBD_StrDesc
+                0x200040cc                . = ALIGN (0x4)
+                0x200040cc                _ebss = .
+                0x200040cc                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x200040cc      0x400 load address 0x08006b50
+                0x200040cc                . = ALIGN (0x4)
+                0x200040cc                PROVIDE (end, .)
+                0x200040cc                PROVIDE (_end, .)
+                0x200040cc                . = (. + _Min_Heap_Size)
+                0x200044cc                . = (. + _Min_Stack_Size)
+ *fill*         0x200040cc      0x400 
+                0x200044cc                . = ALIGN (0x4)
+
+.memory_b1_text
+ *(.mb1text)
+ *(.mb1text*)
+ *(.mb1rodata)
+ *(.mb1rodata*)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x31
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x33 ./src_standart/misc.o
+ .ARM.attributes
+                0x00000033       0x33 ./src_standart/stm32f4xx_adc.o
+ .ARM.attributes
+                0x00000066       0x33 ./src_standart/stm32f4xx_dma.o
+ .ARM.attributes
+                0x00000099       0x33 ./src_standart/stm32f4xx_exti.o
+ .ARM.attributes
+                0x000000cc       0x33 ./src_standart/stm32f4xx_gpio.o
+ .ARM.attributes
+                0x000000ff       0x33 ./src_standart/stm32f4xx_rcc.o
+ .ARM.attributes
+                0x00000132       0x33 ./src_standart/stm32f4xx_tim.o
+ .ARM.attributes
+                0x00000165       0x33 ./src_USB_OTG/usb_core.o
+ .ARM.attributes
+                0x00000198       0x33 ./src_USB_OTG/usb_dcd.o
+ .ARM.attributes
+                0x000001cb       0x33 ./src_USB_OTG/usb_dcd_int.o
+ .ARM.attributes
+                0x000001fe       0x33 ./src_CDC/usbd_cdc_core.o
+ .ARM.attributes
+                0x00000231       0x33 ./src/main.o
+ .ARM.attributes
+                0x00000264       0x21 ./src/startup_stm32f4xx.o
+ .ARM.attributes
+                0x00000285       0x33 ./src/stm32f4xx_it.o
+ .ARM.attributes
+                0x000002b8       0x33 ./src/system_stm32f4xx.o
+ .ARM.attributes
+                0x000002eb       0x33 ./src/usb_bsp.o
+ .ARM.attributes
+                0x0000031e       0x33 ./src/usbd_cdc.o
+ .ARM.attributes
+                0x00000351       0x33 ./src/usbd_desc.o
+ .ARM.attributes
+                0x00000384       0x33 ./src/usbd_usr.o
+ .ARM.attributes
+                0x000003b7       0x33 ./sec_USBD/usbd_core.o
+ .ARM.attributes
+                0x000003ea       0x33 ./sec_USBD/usbd_ioreq.o
+ .ARM.attributes
+                0x0000041d       0x33 ./sec_USBD/usbd_req.o
+OUTPUT(CMM.elf elf32-littlearm)
+
+.debug_info     0x00000000    0x14b2f
+ .debug_info    0x00000000      0x541 ./src_standart/misc.o
+ .debug_info    0x00000541      0xc84 ./src_standart/stm32f4xx_adc.o
+ .debug_info    0x000011c5      0x737 ./src_standart/stm32f4xx_dma.o
+ .debug_info    0x000018fc      0x34a ./src_standart/stm32f4xx_exti.o
+ .debug_info    0x00001c46      0x70c ./src_standart/stm32f4xx_gpio.o
+ .debug_info    0x00002352      0xc8c ./src_standart/stm32f4xx_rcc.o
+ .debug_info    0x00002fde     0x207b ./src_standart/stm32f4xx_tim.o
+ .debug_info    0x00005059     0x2750 ./src_USB_OTG/usb_core.o
+ .debug_info    0x000077a9     0x1363 ./src_USB_OTG/usb_dcd.o
+ .debug_info    0x00008b0c     0x2254 ./src_USB_OTG/usb_dcd_int.o
+ .debug_info    0x0000ad60     0x11fc ./src_CDC/usbd_cdc_core.o
+ .debug_info    0x0000bf5c     0x24bc ./src/main.o
+ .debug_info    0x0000e418       0x7d ./src/startup_stm32f4xx.o
+ .debug_info    0x0000e495      0xc22 ./src/stm32f4xx_it.o
+ .debug_info    0x0000f0b7      0x5ae ./src/system_stm32f4xx.o
+ .debug_info    0x0000f665     0x11df ./src/usb_bsp.o
+ .debug_info    0x00010844      0x31a ./src/usbd_cdc.o
+ .debug_info    0x00010b5e      0x4b2 ./src/usbd_desc.o
+ .debug_info    0x00011010      0x7cf ./src/usbd_usr.o
+ .debug_info    0x000117df     0x1262 ./sec_USBD/usbd_core.o
+ .debug_info    0x00012a41      0xde5 ./sec_USBD/usbd_ioreq.o
+ .debug_info    0x00013826     0x1309 ./sec_USBD/usbd_req.o
+
+.debug_abbrev   0x00000000     0x3116
+ .debug_abbrev  0x00000000      0x154 ./src_standart/misc.o
+ .debug_abbrev  0x00000154      0x1cc ./src_standart/stm32f4xx_adc.o
+ .debug_abbrev  0x00000320      0x173 ./src_standart/stm32f4xx_dma.o
+ .debug_abbrev  0x00000493      0x1c3 ./src_standart/stm32f4xx_exti.o
+ .debug_abbrev  0x00000656      0x1e6 ./src_standart/stm32f4xx_gpio.o
+ .debug_abbrev  0x0000083c      0x209 ./src_standart/stm32f4xx_rcc.o
+ .debug_abbrev  0x00000a45      0x2ad ./src_standart/stm32f4xx_tim.o
+ .debug_abbrev  0x00000cf2      0x433 ./src_USB_OTG/usb_core.o
+ .debug_abbrev  0x00001125      0x2e8 ./src_USB_OTG/usb_dcd.o
+ .debug_abbrev  0x0000140d      0x319 ./src_USB_OTG/usb_dcd_int.o
+ .debug_abbrev  0x00001726      0x321 ./src_CDC/usbd_cdc_core.o
+ .debug_abbrev  0x00001a47      0x3ac ./src/main.o
+ .debug_abbrev  0x00001df3       0x12 ./src/startup_stm32f4xx.o
+ .debug_abbrev  0x00001e05      0x203 ./src/stm32f4xx_it.o
+ .debug_abbrev  0x00002008      0x145 ./src/system_stm32f4xx.o
+ .debug_abbrev  0x0000214d      0x228 ./src/usb_bsp.o
+ .debug_abbrev  0x00002375      0x198 ./src/usbd_cdc.o
+ .debug_abbrev  0x0000250d      0x181 ./src/usbd_desc.o
+ .debug_abbrev  0x0000268e      0x1e5 ./src/usbd_usr.o
+ .debug_abbrev  0x00002873      0x335 ./sec_USBD/usbd_core.o
+ .debug_abbrev  0x00002ba8      0x1dd ./sec_USBD/usbd_ioreq.o
+ .debug_abbrev  0x00002d85      0x391 ./sec_USBD/usbd_req.o
+
+.debug_loc      0x00000000     0x7149
+ .debug_loc     0x00000000      0x147 ./src_standart/misc.o
+ .debug_loc     0x00000147      0xa13 ./src_standart/stm32f4xx_adc.o
+ .debug_loc     0x00000b5a      0x432 ./src_standart/stm32f4xx_dma.o
+ .debug_loc     0x00000f8c      0x1a0 ./src_standart/stm32f4xx_exti.o
+ .debug_loc     0x0000112c      0x349 ./src_standart/stm32f4xx_gpio.o
+ .debug_loc     0x00001475      0x9ec ./src_standart/stm32f4xx_rcc.o
+ .debug_loc     0x00001e61     0x1ad6 ./src_standart/stm32f4xx_tim.o
+ .debug_loc     0x00003937     0x1116 ./src_USB_OTG/usb_core.o
+ .debug_loc     0x00004a4d      0x69e ./src_USB_OTG/usb_dcd.o
+ .debug_loc     0x000050eb      0x6e9 ./src_USB_OTG/usb_dcd_int.o
+ .debug_loc     0x000057d4      0x4ba ./src_CDC/usbd_cdc_core.o
+ .debug_loc     0x00005c8e      0x284 ./src/main.o
+ .debug_loc     0x00005f12       0xb7 ./src/system_stm32f4xx.o
+ .debug_loc     0x00005fc9       0xa3 ./src/usb_bsp.o
+ .debug_loc     0x0000606c       0xa1 ./src/usbd_cdc.o
+ .debug_loc     0x0000610d      0x29b ./src/usbd_desc.o
+ .debug_loc     0x000063a8       0x64 ./src/usbd_usr.o
+ .debug_loc     0x0000640c      0x4e5 ./sec_USBD/usbd_core.o
+ .debug_loc     0x000068f1      0x1f8 ./sec_USBD/usbd_ioreq.o
+ .debug_loc     0x00006ae9      0x660 ./sec_USBD/usbd_req.o
+
+.debug_aranges  0x00000000      0xcf0
+ .debug_aranges
+                0x00000000       0x40 ./src_standart/misc.o
+ .debug_aranges
+                0x00000040      0x148 ./src_standart/stm32f4xx_adc.o
+ .debug_aranges
+                0x00000188       0xb0 ./src_standart/stm32f4xx_dma.o
+ .debug_aranges
+                0x00000238       0x58 ./src_standart/stm32f4xx_exti.o
+ .debug_aranges
+                0x00000290       0x88 ./src_standart/stm32f4xx_gpio.o
+ .debug_aranges
+                0x00000318      0x178 ./src_standart/stm32f4xx_rcc.o
+ .debug_aranges
+                0x00000490      0x2e8 ./src_standart/stm32f4xx_tim.o
+ .debug_aranges
+                0x00000778      0x130 ./src_USB_OTG/usb_core.o
+ .debug_aranges
+                0x000008a8       0x80 ./src_USB_OTG/usb_dcd.o
+ .debug_aranges
+                0x00000928       0x20 ./src_USB_OTG/usb_dcd_int.o
+ .debug_aranges
+                0x00000948       0x58 ./src_CDC/usbd_cdc_core.o
+ .debug_aranges
+                0x000009a0       0x50 ./src/main.o
+ .debug_aranges
+                0x000009f0       0x28 ./src/startup_stm32f4xx.o
+ .debug_aranges
+                0x00000a18       0x78 ./src/stm32f4xx_it.o
+ .debug_aranges
+                0x00000a90       0x28 ./src/system_stm32f4xx.o
+ .debug_aranges
+                0x00000ab8       0x38 ./src/usb_bsp.o
+ .debug_aranges
+                0x00000af0       0x48 ./src/usbd_cdc.o
+ .debug_aranges
+                0x00000b38       0x50 ./src/usbd_desc.o
+ .debug_aranges
+                0x00000b88       0x50 ./src/usbd_usr.o
+ .debug_aranges
+                0x00000bd8       0x80 ./sec_USBD/usbd_core.o
+ .debug_aranges
+                0x00000c58       0x50 ./sec_USBD/usbd_ioreq.o
+ .debug_aranges
+                0x00000ca8       0x48 ./sec_USBD/usbd_req.o
+
+.debug_ranges   0x00000000      0xca8
+ .debug_ranges  0x00000000       0x30 ./src_standart/misc.o
+ .debug_ranges  0x00000030      0x138 ./src_standart/stm32f4xx_adc.o
+ .debug_ranges  0x00000168       0xa0 ./src_standart/stm32f4xx_dma.o
+ .debug_ranges  0x00000208       0x48 ./src_standart/stm32f4xx_exti.o
+ .debug_ranges  0x00000250       0x78 ./src_standart/stm32f4xx_gpio.o
+ .debug_ranges  0x000002c8      0x168 ./src_standart/stm32f4xx_rcc.o
+ .debug_ranges  0x00000430      0x2f8 ./src_standart/stm32f4xx_tim.o
+ .debug_ranges  0x00000728      0x120 ./src_USB_OTG/usb_core.o
+ .debug_ranges  0x00000848       0x70 ./src_USB_OTG/usb_dcd.o
+ .debug_ranges  0x000008b8       0x40 ./src_USB_OTG/usb_dcd_int.o
+ .debug_ranges  0x000008f8       0x60 ./src_CDC/usbd_cdc_core.o
+ .debug_ranges  0x00000958       0xa0 ./src/main.o
+ .debug_ranges  0x000009f8       0x20 ./src/startup_stm32f4xx.o
+ .debug_ranges  0x00000a18       0x68 ./src/stm32f4xx_it.o
+ .debug_ranges  0x00000a80       0x30 ./src/system_stm32f4xx.o
+ .debug_ranges  0x00000ab0       0x28 ./src/usb_bsp.o
+ .debug_ranges  0x00000ad8       0x38 ./src/usbd_cdc.o
+ .debug_ranges  0x00000b10       0x70 ./src/usbd_desc.o
+ .debug_ranges  0x00000b80       0x40 ./src/usbd_usr.o
+ .debug_ranges  0x00000bc0       0x70 ./sec_USBD/usbd_core.o
+ .debug_ranges  0x00000c30       0x40 ./sec_USBD/usbd_ioreq.o
+ .debug_ranges  0x00000c70       0x38 ./sec_USBD/usbd_req.o
+
+.debug_line     0x00000000     0x6023
+ .debug_line    0x00000000      0x311 ./src_standart/misc.o
+ .debug_line    0x00000311      0x635 ./src_standart/stm32f4xx_adc.o
+ .debug_line    0x00000946      0x4ab ./src_standart/stm32f4xx_dma.o
+ .debug_line    0x00000df1      0x36c ./src_standart/stm32f4xx_exti.o
+ .debug_line    0x0000115d      0x40d ./src_standart/stm32f4xx_gpio.o
+ .debug_line    0x0000156a      0x649 ./src_standart/stm32f4xx_rcc.o
+ .debug_line    0x00001bb3      0xb96 ./src_standart/stm32f4xx_tim.o
+ .debug_line    0x00002749      0x779 ./src_USB_OTG/usb_core.o
+ .debug_line    0x00002ec2      0x411 ./src_USB_OTG/usb_dcd.o
+ .debug_line    0x000032d3      0x387 ./src_USB_OTG/usb_dcd_int.o
+ .debug_line    0x0000365a      0x46a ./src_CDC/usbd_cdc_core.o
+ .debug_line    0x00003ac4      0x744 ./src/main.o
+ .debug_line    0x00004208       0x76 ./src/startup_stm32f4xx.o
+ .debug_line    0x0000427e      0x390 ./src/stm32f4xx_it.o
+ .debug_line    0x0000460e      0x22e ./src/system_stm32f4xx.o
+ .debug_line    0x0000483c      0x373 ./src/usb_bsp.o
+ .debug_line    0x00004baf      0x2d5 ./src/usbd_cdc.o
+ .debug_line    0x00004e84      0x31a ./src/usbd_desc.o
+ .debug_line    0x0000519e      0x2d0 ./src/usbd_usr.o
+ .debug_line    0x0000546e      0x457 ./sec_USBD/usbd_core.o
+ .debug_line    0x000058c5      0x35e ./sec_USBD/usbd_ioreq.o
+ .debug_line    0x00005c23      0x400 ./sec_USBD/usbd_req.o
+
+.debug_str      0x00000000     0x4dad
+ .debug_str     0x00000000      0x3f6 ./src_standart/misc.o
+                                0x44a (size before relaxing)
+ .debug_str     0x000003f6      0x6a3 ./src_standart/stm32f4xx_adc.o
+                                0x897 (size before relaxing)
+ .debug_str     0x00000a99      0x3b3 ./src_standart/stm32f4xx_dma.o
+                                0x5be (size before relaxing)
+ .debug_str     0x00000e4c      0x1fc ./src_standart/stm32f4xx_exti.o
+                                0x3d5 (size before relaxing)
+ .debug_str     0x00001048      0x36e ./src_standart/stm32f4xx_gpio.o
+                                0x546 (size before relaxing)
+ .debug_str     0x000013b6      0x64a ./src_standart/stm32f4xx_rcc.o
+                                0x8cc (size before relaxing)
+ .debug_str     0x00001a00      0xbb8 ./src_standart/stm32f4xx_tim.o
+                                0xe7a (size before relaxing)
+ .debug_str     0x000025b8     0x126d ./src_USB_OTG/usb_core.o
+                               0x172c (size before relaxing)
+ .debug_str     0x00003825      0x14a ./src_USB_OTG/usb_dcd.o
+                                0xd26 (size before relaxing)
+ .debug_str     0x0000396f      0x30c ./src_USB_OTG/usb_dcd_int.o
+                               0x141b (size before relaxing)
+ .debug_str     0x00003c7b      0x2c2 ./src_CDC/usbd_cdc_core.o
+                                0xc13 (size before relaxing)
+ .debug_str     0x00003f3d      0x6bd ./src/main.o
+                               0x1894 (size before relaxing)
+ .debug_str     0x000045fa      0x105 ./src/stm32f4xx_it.o
+                                0xa95 (size before relaxing)
+ .debug_str     0x000046ff       0x7d ./src/system_stm32f4xx.o
+                                0x409 (size before relaxing)
+ .debug_str     0x0000477c       0x74 ./src/usb_bsp.o
+                               0x11b1 (size before relaxing)
+ .debug_str     0x000047f0       0x26 ./src/usbd_cdc.o
+                                0x2f1 (size before relaxing)
+ .debug_str     0x00004816      0x12a ./src/usbd_desc.o
+                                0x3f4 (size before relaxing)
+ .debug_str     0x00004940       0xda ./src/usbd_usr.o
+                                0x93f (size before relaxing)
+ .debug_str     0x00004a1a      0x1ce ./sec_USBD/usbd_core.o
+                                0xc3b (size before relaxing)
+ .debug_str     0x00004be8       0x88 ./sec_USBD/usbd_ioreq.o
+                                0xa6e (size before relaxing)
+ .debug_str     0x00004c70      0x13d ./sec_USBD/usbd_req.o
+                                0xbff (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src_standart/misc.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_adc.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_dma.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_exti.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_gpio.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_rcc.o
+ .comment       0x00000000       0x71 ./src_standart/stm32f4xx_tim.o
+ .comment       0x00000000       0x71 ./src_USB_OTG/usb_core.o
+ .comment       0x00000000       0x71 ./src_USB_OTG/usb_dcd.o
+ .comment       0x00000000       0x71 ./src_USB_OTG/usb_dcd_int.o
+ .comment       0x00000000       0x71 ./src_CDC/usbd_cdc_core.o
+ .comment       0x00000000       0x71 ./src/main.o
+ .comment       0x00000000       0x71 ./src/stm32f4xx_it.o
+ .comment       0x00000000       0x71 ./src/system_stm32f4xx.o
+ .comment       0x00000000       0x71 ./src/usb_bsp.o
+ .comment       0x00000000       0x71 ./src/usbd_cdc.o
+ .comment       0x00000000       0x71 ./src/usbd_desc.o
+ .comment       0x00000000       0x71 ./src/usbd_usr.o
+ .comment       0x00000000       0x71 ./sec_USBD/usbd_core.o
+ .comment       0x00000000       0x71 ./sec_USBD/usbd_ioreq.o
+ .comment       0x00000000       0x71 ./sec_USBD/usbd_req.o
+
+.debug_frame    0x00000000     0x1b98
+ .debug_frame   0x00000000       0x68 ./src_standart/misc.o
+ .debug_frame   0x00000068      0x2a8 ./src_standart/stm32f4xx_adc.o
+ .debug_frame   0x00000310      0x16c ./src_standart/stm32f4xx_dma.o
+ .debug_frame   0x0000047c       0x9c ./src_standart/stm32f4xx_exti.o
+ .debug_frame   0x00000518      0x114 ./src_standart/stm32f4xx_gpio.o
+ .debug_frame   0x0000062c      0x2ec ./src_standart/stm32f4xx_rcc.o
+ .debug_frame   0x00000918      0x66c ./src_standart/stm32f4xx_tim.o
+ .debug_frame   0x00000f84      0x310 ./src_USB_OTG/usb_core.o
+ .debug_frame   0x00001294      0x130 ./src_USB_OTG/usb_dcd.o
+ .debug_frame   0x000013c4       0x3c ./src_USB_OTG/usb_dcd_int.o
+ .debug_frame   0x00001400       0xe0 ./src_CDC/usbd_cdc_core.o
+ .debug_frame   0x000014e0       0xd8 ./src/main.o
+ .debug_frame   0x000015b8       0xe0 ./src/stm32f4xx_it.o
+ .debug_frame   0x00001698       0x34 ./src/system_stm32f4xx.o
+ .debug_frame   0x000016cc       0x6c ./src/usb_bsp.o
+ .debug_frame   0x00001738       0x84 ./src/usbd_cdc.o
+ .debug_frame   0x000017bc       0xa8 ./src/usbd_desc.o
+ .debug_frame   0x00001864       0x80 ./src/usbd_usr.o
+ .debug_frame   0x000018e4      0x150 ./sec_USBD/usbd_core.o
+ .debug_frame   0x00001a34       0xb8 ./sec_USBD/usbd_ioreq.o
+ .debug_frame   0x00001aec       0xac ./sec_USBD/usbd_req.o
