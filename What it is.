@@ -1,0 +1,3 @@
+Here, data is read from adc with stm32 and sent to the computer.
+
+İt is stm32f4 code here. İt have CDC commucation, DMA and ADC. 
